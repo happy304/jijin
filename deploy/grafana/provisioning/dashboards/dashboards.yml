@@ -1,0 +1,24 @@
+# =====================================================================
+# Grafana dashboard provisioning
+#
+# Grafana watches `/var/lib/grafana/dashboards` (bind-mounted from
+# `deploy/grafana/dashboards/`) and auto-imports any `*.json` files it
+# finds. Dashboards are marked editable=false so operators can clone
+# before customising instead of drifting from the versioned JSON.
+#
+# Requirement: 8.6 — Grafana monitoring dashboard
+# =====================================================================
+
+apiVersion: 1
+
+providers:
+  - name: Fund Quant Platform
+    orgId: 1
+    folder: Fund Quant Platform
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 30
+    allowUiUpdates: false
+    options:
+      path: /var/lib/grafana/dashboards
+      foldersFromFilesStructure: false

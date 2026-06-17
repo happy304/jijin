@@ -1,0 +1,144 @@
+# =====================================================================
+# Prometheus Alerting Rules — Fund Quant Platform
+#
+# Alert categories:
+#   • Data freshness — detect stale fund data
+#   • Provider health — circuit breaker state
+#   • Task reliability — failure rate monitoring
+#   • LLM cost — budget overrun detection
+#   • Performance — latency and queue depth
+#
+# Requirements: 8.4, 8.7
+# =====================================================================
+
+groups:
+  - name: fund_quant_data
+    rules:
+      # ---------------------------------------------------------------
+      # DataStale: Fund data not updated for 2 consecutive trading days.
+      # The data_completeness_ratio gauge drops when expected
+      # observations are missing. We alert when the metric hasn't
+      # increased (no new data ingested) for ~48h.
+      # ---------------------------------------------------------------
+      - alert: DataStale
+        expr: |
+          (time() - ingest_requests_total_last_success_timestamp) > 172800
+          or
+          increase(ingest_requests_total{status="success"}[48h]) == 0
+        for: 30m
+        labels:
+          severity: warning
+          category: data
+        annotations:
+          summary: "Fund data not updated for 2+ trading days"
+          description: >-
+            No successful ingest requests recorded in the last 48 hours.
+            This may indicate data source issues or scheduler failures.
+            Check the ingest task logs and data provider health.
+
+      # ---------------------------------------------------------------
+      # ProviderCircuitOpen: A data provider's circuit breaker is open.
+      # The circuit_breaker_state gauge is set to 1 when OPEN.
+      # Fallback: detect sustained failure pattern from ingest metrics.
+      # ---------------------------------------------------------------
+      - alert: ProviderCircuitOpen
+        expr: |
+          rate(ingest_requests_total{status="error"}[10m]) > 0
+          and
+          rate(ingest_requests_total{status="success"}[10m]) == 0
+        for: 5m
+        labels:
+          severity: critical
+          category: provider
+        annotations:
+          summary: "Data provider {{ $labels.provider }} circuit breaker likely open"
+          description: >-
+            Provider {{ $labels.provider }} has only error responses and
+            zero successes in the last 10 minutes, indicating the circuit
+            breaker is open. Automatic recovery will be attempted after
+            the cooldown period (60s). If this persists, check the
+            upstream data source availability.
+
+  - name: fund_quant_tasks
+    rules:
+      # ---------------------------------------------------------------
+      # TaskFailureRateHigh: Task failure rate exceeds 10% in last hour.
+      # ---------------------------------------------------------------
+      - alert: TaskFailureRateHigh
+        expr: |
+          (
+            sum(rate(ingest_requests_total{status="error"}[1h]))
+            /
+            (sum(rate(ingest_requests_total[1h])) > 0)
+          ) > 0.1
+        for: 10m
+        labels:
+          severity: warning
+          category: task
+        annotations:
+          summary: "Task failure rate exceeds 10%"
+          description: >-
+            The overall task failure rate has exceeded 10% over the last
+            hour. Current failure ratio: {{ $value | printf "%.1f" }}%.
+            Investigate recent task logs for recurring errors.
+
+  - name: fund_quant_llm
+    rules:
+      # ---------------------------------------------------------------
+      # LLMCostExceeded: Daily LLM cost exceeds configured threshold.
+      # Default threshold: $10 USD/day. Adjust via relabeling or
+      # recording rules for your budget.
+      # ---------------------------------------------------------------
+      - alert: LLMCostExceeded
+        expr: |
+          sum(increase(llm_cost_usd_total[24h])) > 10
+        for: 5m
+        labels:
+          severity: warning
+          category: llm
+        annotations:
+          summary: "Daily LLM cost exceeded threshold ($10)"
+          description: >-
+            Cumulative LLM API cost in the last 24 hours has exceeded
+            the configured daily budget. Current spend:
+            ${{ $value | printf "%.2f" }}. Non-critical AI calls should
+            be paused until the budget resets.
+
+  - name: fund_quant_performance
+    rules:
+      # ---------------------------------------------------------------
+      # IngestLatencyHigh: P95 ingest latency exceeds 30 seconds.
+      # ---------------------------------------------------------------
+      - alert: IngestLatencyHigh
+        expr: |
+          histogram_quantile(0.95, sum(rate(ingest_latency_seconds_bucket[5m])) by (le))
+          > 30
+        for: 10m
+        labels:
+          severity: warning
+          category: performance
+        annotations:
+          summary: "P95 ingest latency exceeds 30 seconds"
+          description: >-
+            The 95th percentile data ingestion latency has exceeded 30
+            seconds for the last 10 minutes. Current P95:
+            {{ $value | printf "%.1f" }}s. This may indicate network
+            issues, rate limiting, or upstream slowness.
+
+      # ---------------------------------------------------------------
+      # BacktestQueueBacklog: Backtest queue depth > 50 for 10 minutes.
+      # ---------------------------------------------------------------
+      - alert: BacktestQueueBacklog
+        expr: |
+          task_queue_depth{queue_name="backtest"} > 50
+        for: 10m
+        labels:
+          severity: warning
+          category: performance
+        annotations:
+          summary: "Backtest queue backlog exceeds 50 tasks"
+          description: >-
+            The backtest task queue has had more than 50 pending tasks
+            for over 10 minutes. Current depth: {{ $value }}.
+            Consider scaling up backtest workers or investigating
+            stuck tasks.

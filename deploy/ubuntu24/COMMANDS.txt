@@ -1,0 +1,27 @@
+Ubuntu 24.04 服务器部署文件说明
+
+这个目录只给服务器部署使用，不影响你电脑上的 Windows 本地运行方式。
+你电脑上仍然可以继续双击：启动.bat、关闭.bat、每日更新数据.bat。
+
+推荐服务器路径：/opt/jijin
+服务器运行方式：systemd + nginx + postgresql + redis + celery
+本地运行方式：保持原来的 .bat，不需要改。
+
+服务器部署顺序：
+1. 先把整个项目上传到 /opt/jijin。
+2. 在服务器执行：bash /opt/jijin/deploy/ubuntu24/scripts/install_base.sh
+3. 修改 /opt/jijin/backend/.env，把 API_CORS_ORIGINS 改成 http://你的服务器公网IP。
+4. 在服务器执行：bash /opt/jijin/deploy/ubuntu24/scripts/setup_app.sh
+
+常用查看命令：
+systemctl status jijin-api
+systemctl status jijin-celery-worker
+systemctl status jijin-celery-beat
+journalctl -u jijin-api -n 100 --no-pager
+journalctl -u jijin-celery-worker -n 100 --no-pager
+journalctl -u jijin-celery-beat -n 100 --no-pager
+
+访问地址：
+http://你的服务器公网IP
+http://你的服务器公网IP/docs
+http://你的服务器公网IP/api/v1/version

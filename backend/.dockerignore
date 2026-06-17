@@ -1,0 +1,26 @@
+# Keep backend build context lean (speeds up docker builds).
+**/__pycache__/
+**/*.py[cod]
+**/*.so
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.hypothesis/
+**/.coverage
+**/coverage.xml
+**/htmlcov/
+**/.venv/
+**/venv/
+**/.env
+**/.env.*
+!**/.env.example
+**/*.egg-info/
+**/build/
+**/dist/
+**/.idea/
+**/.vscode/
+**/*.log
+**/logs/
+**/local_data/
+**/tmp/
+**/.DS_Store

@@ -1,0 +1,141 @@
+{
+  "000010": {
+    "moderate": {
+      "fund_code": "000010",
+      "risk_level": "moderate",
+      "updated_at": "2026-05-26",
+      "requested_days": null,
+      "actual_trading_days": 0,
+      "avg_oos_ic": 0.08,
+      "avg_is_ic": null,
+      "ic_degradation": null,
+      "avg_oos_buy_hit_rate": null,
+      "avg_oos_sell_hit_rate": null,
+      "total_oos_signals": 22,
+      "total_oos_buy": 0,
+      "total_oos_sell": 0,
+      "warnings": []
+    }
+  },
+  "010531": {
+    "moderate": {
+      "fund_code": "010531",
+      "risk_level": "moderate",
+      "updated_at": "2026-05-26",
+      "requested_days": null,
+      "actual_trading_days": 1344,
+      "avg_oos_ic": -0.132,
+      "avg_is_ic": -0.1099,
+      "ic_degradation": null,
+      "avg_oos_buy_hit_rate": 0.5484,
+      "avg_oos_sell_hit_rate": null,
+      "total_oos_signals": 62,
+      "total_oos_buy": 62,
+      "total_oos_sell": 0,
+      "warnings": [
+        "样本外 IC < 0.02，引擎在未见数据上无显著预测力"
+      ]
+    }
+  },
+  "027048": {
+    "moderate": {
+      "fund_code": "027048",
+      "risk_level": "moderate",
+      "updated_at": "2026-05-26",
+      "requested_days": null,
+      "actual_trading_days": 16,
+      "avg_oos_ic": null,
+      "avg_is_ic": null,
+      "ic_degradation": null,
+      "avg_oos_buy_hit_rate": null,
+      "avg_oos_sell_hit_rate": null,
+      "total_oos_signals": 0,
+      "total_oos_buy": 0,
+      "total_oos_sell": 0,
+      "warnings": [
+        "数据不足：Walk-Forward 需要至少 400 天，实际 16 天"
+      ]
+    }
+  },
+  "017731": {
+    "moderate": {
+      "fund_code": "017731",
+      "risk_level": "moderate",
+      "updated_at": "2026-05-26",
+      "requested_days": null,
+      "actual_trading_days": 754,
+      "avg_oos_ic": -0.1694,
+      "avg_is_ic": -0.2277,
+      "ic_degradation": null,
+      "avg_oos_buy_hit_rate": 0.7119,
+      "avg_oos_sell_hit_rate": null,
+      "total_oos_signals": 59,
+      "total_oos_buy": 59,
+      "total_oos_sell": 0,
+      "warnings": [
+        "样本外 IC < 0.02，引擎在未见数据上无显著预测力"
+      ]
+    }
+  },
+  "016050": {
+    "moderate": {
+      "fund_code": "016050",
+      "risk_level": "moderate",
+      "updated_at": "2026-05-26",
+      "requested_days": null,
+      "actual_trading_days": 943,
+      "avg_oos_ic": -0.2709,
+      "avg_is_ic": -0.0748,
+      "ic_degradation": null,
+      "avg_oos_buy_hit_rate": 0.7647,
+      "avg_oos_sell_hit_rate": null,
+      "total_oos_signals": 51,
+      "total_oos_buy": 51,
+      "total_oos_sell": 0,
+      "warnings": [
+        "样本外 IC < 0.02，引擎在未见数据上无显著预测力"
+      ]
+    }
+  },
+  "006265": {
+    "moderate": {
+      "fund_code": "006265",
+      "risk_level": "moderate",
+      "updated_at": "2026-05-26",
+      "requested_days": null,
+      "actual_trading_days": 1855,
+      "avg_oos_ic": -0.0114,
+      "avg_is_ic": 0.1599,
+      "ic_degradation": -0.0713,
+      "avg_oos_buy_hit_rate": 0.5872,
+      "avg_oos_sell_hit_rate": null,
+      "total_oos_signals": 109,
+      "total_oos_buy": 109,
+      "total_oos_sell": 0,
+      "warnings": [
+        "严重过拟合：OOS IC 仅为样本内的 -7%，引擎信号在未见数据上几乎无效",
+        "样本外 IC < 0.02，引擎在未见数据上无显著预测力"
+      ]
+    }
+  },
+  "021533": {
+    "moderate": {
+      "fund_code": "021533",
+      "risk_level": "moderate",
+      "updated_at": "2026-05-26",
+      "requested_days": null,
+      "actual_trading_days": 469,
+      "avg_oos_ic": null,
+      "avg_is_ic": null,
+      "ic_degradation": null,
+      "avg_oos_buy_hit_rate": null,
+      "avg_oos_sell_hit_rate": null,
+      "total_oos_signals": 0,
+      "total_oos_buy": 0,
+      "total_oos_sell": 0,
+      "warnings": [
+        "数据不足以支持有效的 walk-forward 分割"
+      ]
+    }
+  }
+}

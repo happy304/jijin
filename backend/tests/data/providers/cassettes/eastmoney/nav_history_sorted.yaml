@@ -1,0 +1,254 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - zh-CN,zh;q=0.9,en;q=0.8
+      Connection:
+      - keep-alive
+      Host:
+      - api.fund.eastmoney.com
+      Referer:
+      - http://fundf10.eastmoney.com/jdzf_000001.html
+    method: GET
+    uri: http://api.fund.eastmoney.com/f10/lsjz?fundCode=000001&pageIndex=1&pageSize=40&startDate=2024-01-01&endDate=2024-03-31&callback=
+  response:
+    body:
+      string: "{\"Data\":{\"LSJZList\":[{\"FSRQ\":\"2024-03-29\",\"DWJZ\":\"0.7400\",\"LJJZ\":\"3.3030\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.14\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-28\",\"DWJZ\":\"0.7390\",\"LJJZ\":\"3.3020\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.09\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-27\",\"DWJZ\":\"0.7310\",\"LJJZ\":\"3.2940\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-2.14\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-26\",\"DWJZ\":\"0.7470\",\"LJJZ\":\"3.3100\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.40\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-25\",\"DWJZ\":\"0.7500\",\"LJJZ\":\"3.3130\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.32\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-22\",\"DWJZ\":\"0.7600\",\"LJJZ\":\"3.3230\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.52\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-21\",\"DWJZ\":\"0.7640\",\"LJJZ\":\"3.3270\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.13\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-20\",\"DWJZ\":\"0.7650\",\"LJJZ\":\"3.3280\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.13\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-19\",\"DWJZ\":\"0.7660\",\"LJJZ\":\"3.3290\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.39\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-18\",\"DWJZ\":\"0.7690\",\"LJJZ\":\"3.3320\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.45\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-15\",\"DWJZ\":\"0.7580\",\"LJJZ\":\"3.3210\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.40\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-14\",\"DWJZ\":\"0.7550\",\"LJJZ\":\"3.3180\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.26\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-13\",\"DWJZ\":\"0.7570\",\"LJJZ\":\"3.3200\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.13\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-12\",\"DWJZ\":\"0.7560\",\"LJJZ\":\"3.3190\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.40\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-11\",\"DWJZ\":\"0.7530\",\"LJJZ\":\"3.3160\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.07\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-08\",\"DWJZ\":\"0.7450\",\"LJJZ\":\"3.3080\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.09\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-07\",\"DWJZ\":\"0.7370\",\"LJJZ\":\"3.3000\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.60\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-06\",\"DWJZ\":\"0.7490\",\"LJJZ\":\"3.3120\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.40\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-05\",\"DWJZ\":\"0.7520\",\"LJJZ\":\"3.3150\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.00\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-04\",\"DWJZ\":\"0.7520\",\"LJJZ\":\"3.3150\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.40\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"}],\"FundType\":\"002\",\"SYType\":null,\"isNewType\":false,\"Feature\":\"215\"},\"ErrCode\":0,\"ErrMsg\":null,\"TotalCount\":58,\"Expansion\":null,\"PageSize\":20,\"PageIndex\":1}"
+    headers:
+      Cache-Control:
+      - max-age=45
+      Connection:
+      - close
+      Content-Length:
+      - '4205'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 13 May 2026 05:42:06 GMT
+      Etag:
+      - '"ac78cd57-e0f8-42a9-ae5c-891d737d7882"'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Accept:
+      - text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - zh-CN,zh;q=0.9,en;q=0.8
+      Connection:
+      - keep-alive
+      Host:
+      - api.fund.eastmoney.com
+      Referer:
+      - http://fundf10.eastmoney.com/jdzf_000001.html
+    method: GET
+    uri: http://api.fund.eastmoney.com/f10/lsjz?fundCode=000001&pageIndex=2&pageSize=40&startDate=2024-01-01&endDate=2024-03-31&callback=
+  response:
+    body:
+      string: "{\"Data\":{\"LSJZList\":[{\"FSRQ\":\"2024-03-01\",\"DWJZ\":\"0.7490\",\"LJJZ\":\"3.3120\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.08\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-29\",\"DWJZ\":\"0.7410\",\"LJJZ\":\"3.3040\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"2.77\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-28\",\"DWJZ\":\"0.7210\",\"LJJZ\":\"3.2840\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-2.57\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-27\",\"DWJZ\":\"0.7400\",\"LJJZ\":\"3.3030\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"2.07\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-26\",\"DWJZ\":\"0.7250\",\"LJJZ\":\"3.2880\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.55\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-23\",\"DWJZ\":\"0.7210\",\"LJJZ\":\"3.2840\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.28\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-22\",\"DWJZ\":\"0.7190\",\"LJJZ\":\"3.2820\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.56\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-21\",\"DWJZ\":\"0.7150\",\"LJJZ\":\"3.2780\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.28\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-20\",\"DWJZ\":\"0.7130\",\"LJJZ\":\"3.2760\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.00\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-19\",\"DWJZ\":\"0.7130\",\"LJJZ\":\"3.2760\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.28\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-08\",\"DWJZ\":\"0.7110\",\"LJJZ\":\"3.2740\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.14\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-07\",\"DWJZ\":\"0.7030\",\"LJJZ\":\"3.2660\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"2.18\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-06\",\"DWJZ\":\"0.6880\",\"LJJZ\":\"3.2510\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"4.08\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-05\",\"DWJZ\":\"0.6610\",\"LJJZ\":\"3.2240\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.60\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-02\",\"DWJZ\":\"0.6650\",\"LJJZ\":\"3.2280\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.92\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-01\",\"DWJZ\":\"0.6780\",\"LJJZ\":\"3.2410\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.30\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-31\",\"DWJZ\":\"0.6760\",\"LJJZ\":\"3.2390\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.74\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-30\",\"DWJZ\":\"0.6880\",\"LJJZ\":\"3.2510\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.57\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-29\",\"DWJZ\":\"0.6990\",\"LJJZ\":\"3.2620\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.55\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-26\",\"DWJZ\":\"0.7100\",\"LJJZ\":\"3.2730\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.25\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"}],\"FundType\":\"002\",\"SYType\":null,\"isNewType\":false,\"Feature\":\"215\"},\"ErrCode\":0,\"ErrMsg\":null,\"TotalCount\":58,\"Expansion\":null,\"PageSize\":20,\"PageIndex\":2}"
+    headers:
+      Cache-Control:
+      - max-age=45
+      Connection:
+      - close
+      Content-Length:
+      - '4202'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 13 May 2026 05:42:08 GMT
+      Etag:
+      - '"afa3f084-01a4-488b-9d50-6f3638fb739a"'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Accept:
+      - text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - zh-CN,zh;q=0.9,en;q=0.8
+      Connection:
+      - keep-alive
+      Host:
+      - api.fund.eastmoney.com
+      Referer:
+      - http://fundf10.eastmoney.com/jdzf_000001.html
+    method: GET
+    uri: http://api.fund.eastmoney.com/f10/lsjz?fundCode=000001&pageIndex=3&pageSize=40&startDate=2024-01-01&endDate=2024-03-31&callback=
+  response:
+    body:
+      string: "{\"Data\":{\"LSJZList\":[{\"FSRQ\":\"2024-01-25\",\"DWJZ\":\"0.7190\",\"LJJZ\":\"3.2820\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.13\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-24\",\"DWJZ\":\"0.7110\",\"LJJZ\":\"3.2740\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.28\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-23\",\"DWJZ\":\"0.7090\",\"LJJZ\":\"3.2720\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.71\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-22\",\"DWJZ\":\"0.7040\",\"LJJZ\":\"3.2670\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-2.49\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-19\",\"DWJZ\":\"0.7220\",\"LJJZ\":\"3.2850\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.55\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-18\",\"DWJZ\":\"0.7260\",\"LJJZ\":\"3.2890\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.97\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-17\",\"DWJZ\":\"0.7190\",\"LJJZ\":\"3.2820\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.91\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-16\",\"DWJZ\":\"0.7330\",\"LJJZ\":\"3.2960\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.00\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-15\",\"DWJZ\":\"0.7330\",\"LJJZ\":\"3.2960\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.27\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-12\",\"DWJZ\":\"0.7350\",\"LJJZ\":\"3.2980\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.54\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-11\",\"DWJZ\":\"0.7390\",\"LJJZ\":\"3.3020\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.68\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-10\",\"DWJZ\":\"0.7340\",\"LJJZ\":\"3.2970\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.81\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-09\",\"DWJZ\":\"0.7400\",\"LJJZ\":\"3.3030\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.00\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-08\",\"DWJZ\":\"0.7400\",\"LJJZ\":\"3.3030\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.46\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-05\",\"DWJZ\":\"0.7510\",\"LJJZ\":\"3.3140\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.44\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-04\",\"DWJZ\":\"0.7620\",\"LJJZ\":\"3.3250\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.91\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-03\",\"DWJZ\":\"0.7690\",\"LJJZ\":\"3.3320\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.77\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-02\",\"DWJZ\":\"0.7750\",\"LJJZ\":\"3.3380\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.77\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"}],\"FundType\":\"002\",\"SYType\":null,\"isNewType\":false,\"Feature\":\"215\"},\"ErrCode\":0,\"ErrMsg\":null,\"TotalCount\":58,\"Expansion\":null,\"PageSize\":20,\"PageIndex\":3}"
+    headers:
+      Cache-Control:
+      - max-age=45
+      Connection:
+      - close
+      Content-Length:
+      - '3804'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 17 May 2026 06:58:28 GMT
+      Etag:
+      - '"0da7cf8d-a853-4f44-a1f9-063ea7d48694"'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Accept:
+      - text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - zh-CN,zh;q=0.9,en;q=0.8
+      Connection:
+      - keep-alive
+      Host:
+      - api.fund.eastmoney.com
+      Referer:
+      - http://fundf10.eastmoney.com/jdzf_000001.html
+    method: GET
+    uri: http://api.fund.eastmoney.com/f10/lsjz?fundCode=000001&pageIndex=1&pageSize=200&startDate=2024-01-01&endDate=2024-03-31&callback=
+  response:
+    body:
+      string: "{\"Data\":{\"LSJZList\":[{\"FSRQ\":\"2024-03-29\",\"DWJZ\":\"0.7400\",\"LJJZ\":\"3.3030\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.14\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-28\",\"DWJZ\":\"0.7390\",\"LJJZ\":\"3.3020\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.09\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-27\",\"DWJZ\":\"0.7310\",\"LJJZ\":\"3.2940\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-2.14\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-26\",\"DWJZ\":\"0.7470\",\"LJJZ\":\"3.3100\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.40\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-25\",\"DWJZ\":\"0.7500\",\"LJJZ\":\"3.3130\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.32\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-22\",\"DWJZ\":\"0.7600\",\"LJJZ\":\"3.3230\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.52\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-21\",\"DWJZ\":\"0.7640\",\"LJJZ\":\"3.3270\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.13\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-20\",\"DWJZ\":\"0.7650\",\"LJJZ\":\"3.3280\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.13\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-19\",\"DWJZ\":\"0.7660\",\"LJJZ\":\"3.3290\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.39\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-18\",\"DWJZ\":\"0.7690\",\"LJJZ\":\"3.3320\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.45\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-15\",\"DWJZ\":\"0.7580\",\"LJJZ\":\"3.3210\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.40\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-14\",\"DWJZ\":\"0.7550\",\"LJJZ\":\"3.3180\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.26\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-13\",\"DWJZ\":\"0.7570\",\"LJJZ\":\"3.3200\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.13\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-12\",\"DWJZ\":\"0.7560\",\"LJJZ\":\"3.3190\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.40\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-11\",\"DWJZ\":\"0.7530\",\"LJJZ\":\"3.3160\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.07\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-08\",\"DWJZ\":\"0.7450\",\"LJJZ\":\"3.3080\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.09\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-07\",\"DWJZ\":\"0.7370\",\"LJJZ\":\"3.3000\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.60\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-06\",\"DWJZ\":\"0.7490\",\"LJJZ\":\"3.3120\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.40\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-05\",\"DWJZ\":\"0.7520\",\"LJJZ\":\"3.3150\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.00\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-04\",\"DWJZ\":\"0.7520\",\"LJJZ\":\"3.3150\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.40\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"}],\"FundType\":\"002\",\"SYType\":null,\"isNewType\":false,\"Feature\":\"215\"},\"ErrCode\":0,\"ErrMsg\":null,\"TotalCount\":58,\"Expansion\":null,\"PageSize\":20,\"PageIndex\":1}"
+    headers:
+      Cache-Control:
+      - max-age=45
+      Connection:
+      - close
+      Content-Length:
+      - '4205'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 19 May 2026 08:35:30 GMT
+      Etag:
+      - '"94e4d477-4dc0-422a-a68f-f08ebc7f7f15"'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Accept:
+      - text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - zh-CN,zh;q=0.9,en;q=0.8
+      Connection:
+      - keep-alive
+      Host:
+      - api.fund.eastmoney.com
+      Referer:
+      - http://fundf10.eastmoney.com/jdzf_000001.html
+    method: GET
+    uri: http://api.fund.eastmoney.com/f10/lsjz?fundCode=000001&pageIndex=1&pageSize=20&startDate=2024-01-01&endDate=2024-03-31&callback=
+  response:
+    body:
+      string: "{\"Data\":{\"LSJZList\":[{\"FSRQ\":\"2024-03-29\",\"DWJZ\":\"0.7400\",\"LJJZ\":\"3.3030\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.14\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-28\",\"DWJZ\":\"0.7390\",\"LJJZ\":\"3.3020\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.09\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-27\",\"DWJZ\":\"0.7310\",\"LJJZ\":\"3.2940\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-2.14\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-26\",\"DWJZ\":\"0.7470\",\"LJJZ\":\"3.3100\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.40\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-25\",\"DWJZ\":\"0.7500\",\"LJJZ\":\"3.3130\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.32\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-22\",\"DWJZ\":\"0.7600\",\"LJJZ\":\"3.3230\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.52\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-21\",\"DWJZ\":\"0.7640\",\"LJJZ\":\"3.3270\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.13\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-20\",\"DWJZ\":\"0.7650\",\"LJJZ\":\"3.3280\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.13\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-19\",\"DWJZ\":\"0.7660\",\"LJJZ\":\"3.3290\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.39\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-18\",\"DWJZ\":\"0.7690\",\"LJJZ\":\"3.3320\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.45\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-15\",\"DWJZ\":\"0.7580\",\"LJJZ\":\"3.3210\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.40\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-14\",\"DWJZ\":\"0.7550\",\"LJJZ\":\"3.3180\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.26\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-13\",\"DWJZ\":\"0.7570\",\"LJJZ\":\"3.3200\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.13\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-12\",\"DWJZ\":\"0.7560\",\"LJJZ\":\"3.3190\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.40\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-11\",\"DWJZ\":\"0.7530\",\"LJJZ\":\"3.3160\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.07\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-08\",\"DWJZ\":\"0.7450\",\"LJJZ\":\"3.3080\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.09\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-07\",\"DWJZ\":\"0.7370\",\"LJJZ\":\"3.3000\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.60\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-06\",\"DWJZ\":\"0.7490\",\"LJJZ\":\"3.3120\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.40\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-05\",\"DWJZ\":\"0.7520\",\"LJJZ\":\"3.3150\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.00\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-03-04\",\"DWJZ\":\"0.7520\",\"LJJZ\":\"3.3150\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.40\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"}],\"FundType\":\"002\",\"SYType\":null,\"isNewType\":false,\"Feature\":\"215\"},\"ErrCode\":0,\"ErrMsg\":null,\"TotalCount\":58,\"Expansion\":null,\"PageSize\":20,\"PageIndex\":1}"
+    headers:
+      Cache-Control:
+      - max-age=45
+      Connection:
+      - close
+      Content-Length:
+      - '4205'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 19 May 2026 09:00:33 GMT
+      Etag:
+      - '"45195a7a-f774-4cb9-9d3a-d8a8caf66150"'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Accept:
+      - text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - zh-CN,zh;q=0.9,en;q=0.8
+      Connection:
+      - keep-alive
+      Host:
+      - api.fund.eastmoney.com
+      Referer:
+      - http://fundf10.eastmoney.com/jdzf_000001.html
+    method: GET
+    uri: http://api.fund.eastmoney.com/f10/lsjz?fundCode=000001&pageIndex=2&pageSize=20&startDate=2024-01-01&endDate=2024-03-31&callback=
+  response:
+    body:
+      string: "{\"Data\":{\"LSJZList\":[{\"FSRQ\":\"2024-03-01\",\"DWJZ\":\"0.7490\",\"LJJZ\":\"3.3120\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.08\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-29\",\"DWJZ\":\"0.7410\",\"LJJZ\":\"3.3040\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"2.77\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-28\",\"DWJZ\":\"0.7210\",\"LJJZ\":\"3.2840\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-2.57\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-27\",\"DWJZ\":\"0.7400\",\"LJJZ\":\"3.3030\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"2.07\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-26\",\"DWJZ\":\"0.7250\",\"LJJZ\":\"3.2880\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.55\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-23\",\"DWJZ\":\"0.7210\",\"LJJZ\":\"3.2840\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.28\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-22\",\"DWJZ\":\"0.7190\",\"LJJZ\":\"3.2820\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.56\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-21\",\"DWJZ\":\"0.7150\",\"LJJZ\":\"3.2780\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.28\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-20\",\"DWJZ\":\"0.7130\",\"LJJZ\":\"3.2760\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.00\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-19\",\"DWJZ\":\"0.7130\",\"LJJZ\":\"3.2760\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.28\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-08\",\"DWJZ\":\"0.7110\",\"LJJZ\":\"3.2740\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.14\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-07\",\"DWJZ\":\"0.7030\",\"LJJZ\":\"3.2660\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"2.18\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-06\",\"DWJZ\":\"0.6880\",\"LJJZ\":\"3.2510\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"4.08\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-05\",\"DWJZ\":\"0.6610\",\"LJJZ\":\"3.2240\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.60\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-02\",\"DWJZ\":\"0.6650\",\"LJJZ\":\"3.2280\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.92\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-02-01\",\"DWJZ\":\"0.6780\",\"LJJZ\":\"3.2410\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.30\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-31\",\"DWJZ\":\"0.6760\",\"LJJZ\":\"3.2390\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.74\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-30\",\"DWJZ\":\"0.6880\",\"LJJZ\":\"3.2510\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.57\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-29\",\"DWJZ\":\"0.6990\",\"LJJZ\":\"3.2620\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.55\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-26\",\"DWJZ\":\"0.7100\",\"LJJZ\":\"3.2730\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.25\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"}],\"FundType\":\"002\",\"SYType\":null,\"isNewType\":false,\"Feature\":\"215\"},\"ErrCode\":0,\"ErrMsg\":null,\"TotalCount\":58,\"Expansion\":null,\"PageSize\":20,\"PageIndex\":2}"
+    headers:
+      Cache-Control:
+      - max-age=45
+      Connection:
+      - close
+      Content-Length:
+      - '4202'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 19 May 2026 09:00:34 GMT
+      Etag:
+      - '"048e7d55-b210-447c-b4cf-3415cf00730c"'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Accept:
+      - text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - zh-CN,zh;q=0.9,en;q=0.8
+      Connection:
+      - keep-alive
+      Host:
+      - api.fund.eastmoney.com
+      Referer:
+      - http://fundf10.eastmoney.com/jdzf_000001.html
+    method: GET
+    uri: http://api.fund.eastmoney.com/f10/lsjz?fundCode=000001&pageIndex=3&pageSize=20&startDate=2024-01-01&endDate=2024-03-31&callback=
+  response:
+    body:
+      string: "{\"Data\":{\"LSJZList\":[{\"FSRQ\":\"2024-01-25\",\"DWJZ\":\"0.7190\",\"LJJZ\":\"3.2820\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"1.13\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-24\",\"DWJZ\":\"0.7110\",\"LJJZ\":\"3.2740\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.28\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-23\",\"DWJZ\":\"0.7090\",\"LJJZ\":\"3.2720\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.71\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-22\",\"DWJZ\":\"0.7040\",\"LJJZ\":\"3.2670\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-2.49\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-19\",\"DWJZ\":\"0.7220\",\"LJJZ\":\"3.2850\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.55\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-18\",\"DWJZ\":\"0.7260\",\"LJJZ\":\"3.2890\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.97\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-17\",\"DWJZ\":\"0.7190\",\"LJJZ\":\"3.2820\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.91\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-16\",\"DWJZ\":\"0.7330\",\"LJJZ\":\"3.2960\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.00\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-15\",\"DWJZ\":\"0.7330\",\"LJJZ\":\"3.2960\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.27\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-12\",\"DWJZ\":\"0.7350\",\"LJJZ\":\"3.2980\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.54\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-11\",\"DWJZ\":\"0.7390\",\"LJJZ\":\"3.3020\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.68\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-10\",\"DWJZ\":\"0.7340\",\"LJJZ\":\"3.2970\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.81\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-09\",\"DWJZ\":\"0.7400\",\"LJJZ\":\"3.3030\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"0.00\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-08\",\"DWJZ\":\"0.7400\",\"LJJZ\":\"3.3030\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.46\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-05\",\"DWJZ\":\"0.7510\",\"LJJZ\":\"3.3140\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-1.44\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-04\",\"DWJZ\":\"0.7620\",\"LJJZ\":\"3.3250\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.91\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-03\",\"DWJZ\":\"0.7690\",\"LJJZ\":\"3.3320\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.77\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"},{\"FSRQ\":\"2024-01-02\",\"DWJZ\":\"0.7750\",\"LJJZ\":\"3.3380\",\"SDATE\":null,\"ACTUALSYI\":\"\",\"NAVTYPE\":\"1\",\"JZZZL\":\"-0.77\",\"SGZT\":\"\u5F00\u653E\u7533\u8D2D\",\"SHZT\":\"\u5F00\u653E\u8D4E\u56DE\",\"FHFCZ\":\"\",\"FHFCBZ\":\"\",\"DTYPE\":null,\"FHSP\":\"\"}],\"FundType\":\"002\",\"SYType\":null,\"isNewType\":false,\"Feature\":\"215\"},\"ErrCode\":0,\"ErrMsg\":null,\"TotalCount\":58,\"Expansion\":null,\"PageSize\":20,\"PageIndex\":3}"
+    headers:
+      Cache-Control:
+      - max-age=45
+      Connection:
+      - close
+      Content-Length:
+      - '3804'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 19 May 2026 09:00:35 GMT
+      Etag:
+      - '"ec7e1bc4-6925-4578-b822-cfc467137040"'
+    status:
+      code: 200
+      message: OK
+version: 1

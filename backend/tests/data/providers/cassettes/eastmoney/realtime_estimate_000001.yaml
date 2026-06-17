@@ -1,0 +1,49 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - zh-CN,zh;q=0.9,en;q=0.8
+      Connection:
+      - keep-alive
+      Host:
+      - fundgz.1234567.com.cn
+      Referer:
+      - http://fund.eastmoney.com/
+    method: GET
+    uri: http://fundgz.1234567.com.cn/js/000001.js
+  response:
+    body:
+      string: "jsonpgz({\"fundcode\":\"000001\",\"name\":\"\u534E\u590F\u6210\u957F\u6DF7\u5408\",\"jzrq\":\"2026-05-12\",\"dwjz\":\"1.2420\",\"gsz\":\"1.2610\",\"gszzl\":\"1.53\",\"gztime\":\"2026-05-13
+        13:40\"});"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Connection:
+      - close
+      Content-Length:
+      - '153'
+      Content-Type:
+      - application/javascript; charset=UTF-8,gbk
+      Date:
+      - Wed, 13 May 2026 05:41:57 GMT
+      Etag:
+      - '"d54e189be2dc1:0"'
+      Last-Modified:
+      - Wed, 13 May 2026 05:41:06 GMT
+      Server:
+      - Lego Server
+      X-Cache-Lookup:
+      - Cache Hit
+      X-Nws-Log-Uuid:
+      - '13968138264438676020'
+      X-Powered-By:
+      - ASP.NET
+    status:
+      code: 200
+      message: OK
+version: 1

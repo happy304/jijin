@@ -1,0 +1,76 @@
+# =============================================================
+# Pre-commit hooks for Fund Quant Platform
+#
+# Install once:
+#     pip install pre-commit
+#     pre-commit install
+#
+# Run manually on all files:
+#     pre-commit run --all-files
+# =============================================================
+minimum_pre_commit_version: "3.5.0"
+
+default_language_version:
+  python: python3.11
+
+# Exclude auto-generated / vendored content from every hook below
+exclude: |
+  (?x)^(
+      backend/migrations/versions/.*|
+      frontend/dist/.*|
+      frontend/node_modules/.*|
+      \.venv/.*|
+      .*\.min\.(js|css)
+  )$
+
+repos:
+  # ---------- Generic hygiene ----------
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-toml
+      - id: check-json
+      - id: check-added-large-files
+        args: ["--maxkb=1024"]
+      - id: check-merge-conflict
+      - id: mixed-line-ending
+        args: ["--fix=lf"]
+      - id: detect-private-key
+
+  # ---------- Python: Ruff (lint + import sort) ----------
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.6.9
+    hooks:
+      - id: ruff
+        args: ["--fix", "--exit-non-zero-on-fix"]
+        files: ^backend/.*\.py$
+      - id: ruff-format
+        files: ^backend/.*\.py$
+
+  # ---------- Python: Black (code formatter) ----------
+  - repo: https://github.com/psf/black
+    rev: 24.8.0
+    hooks:
+      - id: black
+        files: ^backend/.*\.py$
+        args: ["--config=backend/pyproject.toml"]
+
+  # ---------- Python: mypy (static type checking) ----------
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.11.2
+    hooks:
+      - id: mypy
+        name: mypy (backend/app)
+        files: ^backend/app/.*\.py$
+        args:
+          - "--config-file=backend/pyproject.toml"
+        additional_dependencies:
+          - "pydantic>=2.7"
+          - "pydantic-settings>=2.3"
+          - "sqlalchemy>=2.0"
+          - "types-python-dateutil"
+          - "types-redis"
+          - "pandas-stubs"

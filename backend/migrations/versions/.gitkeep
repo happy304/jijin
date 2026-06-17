@@ -1,0 +1,4 @@
+# Alembic version scripts are generated here by `alembic revision`.
+# This placeholder keeps the empty directory in version control so a
+# fresh checkout can immediately run `alembic upgrade head` without
+# needing to recreate the path.

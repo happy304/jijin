@@ -1,0 +1,14 @@
+[Unit]
+Description=Jijin Celery Worker
+After=network.target redis-server.service postgresql.service
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/jijin/backend
+EnvironmentFile=/opt/jijin/backend/.env
+ExecStart=/opt/jijin/backend/.venv/bin/python -m celery -A app.tasks.celery_app worker --loglevel=info --pool=solo -Q ingest,backtest,ai,notify
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

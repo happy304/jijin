@@ -1,0 +1,361 @@
+# =====================================================================
+# Fund Quant Platform — Production-oriented Docker Compose
+#
+# Services:
+#   postgres  — TimescaleDB (PostgreSQL 16)
+#   redis     — cache + Celery broker/backend
+#   api       — FastAPI / Uvicorn (multi-worker via gunicorn UvicornWorker)
+#   worker    — Celery worker (ingest / backtest / ai / notify queues)
+#   beat      — Celery beat scheduler
+#   frontend  — React SPA served by nginx (reverse-proxies /api → api:8000)
+#
+# Usage (from repo root):
+#   docker compose -f deploy/docker-compose.yml up -d
+#
+# Overlay with dev overrides (bind mount + hot reload):
+#   docker compose -f deploy/docker-compose.yml \
+#                  -f deploy/docker-compose.dev.yml up
+#
+# All services pull configuration from the repo-root `.env` file (see
+# `.env.example`). Compose variable interpolation is used so a missing
+# variable surfaces clearly at `docker compose config` time.
+# =====================================================================
+
+name: fund-quant-platform
+
+x-backend-build: &backend-build
+  context: ../backend
+  dockerfile: Dockerfile
+  target: runtime
+
+x-backend-env: &backend-env
+  APP_ENV: ${APP_ENV:-production}
+  LOG_LEVEL: ${LOG_LEVEL:-INFO}
+  TIMEZONE: ${TIMEZONE:-Asia/Shanghai}
+  SECRET_KEY: ${SECRET_KEY:-change-me-in-prod}
+  # Database — overridden to use the compose-internal hostnames
+  POSTGRES_HOST: postgres
+  POSTGRES_PORT: 5432
+  POSTGRES_USER: ${POSTGRES_USER:-fundquant}
+  POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-fundquant}
+  POSTGRES_DB: ${POSTGRES_DB:-fundquant}
+  DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-fundquant}:${POSTGRES_PASSWORD:-fundquant}@postgres:5432/${POSTGRES_DB:-fundquant}
+  DATABASE_SYNC_URL: postgresql+psycopg://${POSTGRES_USER:-fundquant}:${POSTGRES_PASSWORD:-fundquant}@postgres:5432/${POSTGRES_DB:-fundquant}
+  # Redis
+  REDIS_HOST: redis
+  REDIS_PORT: 6379
+  REDIS_URL: redis://redis:6379/0
+  CELERY_BROKER_URL: redis://redis:6379/1
+  CELERY_RESULT_BACKEND: redis://redis:6379/2
+  # Observability
+  PROMETHEUS_ENABLED: ${PROMETHEUS_ENABLED:-true}
+
+x-backend-common: &backend-common
+  build: *backend-build
+  image: fund-quant-platform/backend:${IMAGE_TAG:-latest}
+  env_file:
+    - ../.env
+  environment: *backend-env
+  networks: [fqp]
+  restart: unless-stopped
+  # Filesystem layout kept consistent across all backend containers so
+  # snapshot/backup paths resolve identically in api / worker / beat.
+  volumes:
+    - snapshots:/app/local_data/snapshots
+    - backups:/app/local_data/backups
+    - logs:/app/logs
+
+services:
+  # -----------------------------------------------------------------
+  # PostgreSQL + TimescaleDB — primary OLTP + time-series store.
+  # -----------------------------------------------------------------
+  postgres:
+    image: timescale/timescaledb:2.16.1-pg16
+    container_name: fqp-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-fundquant}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-fundquant}
+      POSTGRES_DB: ${POSTGRES_DB:-fundquant}
+      # Timescale image honours this to enable the extension on boot.
+      TIMESCALEDB_TELEMETRY: "off"
+    ports:
+      - "${POSTGRES_PORT_HOST:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U ${POSTGRES_USER:-fundquant} -d ${POSTGRES_DB:-fundquant}
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    networks: [fqp]
+
+  # -----------------------------------------------------------------
+  # Redis — cache + Celery broker/backend.
+  # -----------------------------------------------------------------
+  redis:
+    image: redis:7.2-alpine
+    container_name: fqp-redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "${REDIS_PORT_HOST:-6379}:6379"
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
+    networks: [fqp]
+
+  # -----------------------------------------------------------------
+  # FastAPI application. In production we use gunicorn with the
+  # Uvicorn worker class (req 9.6). DEBUG is forced off here.
+  # -----------------------------------------------------------------
+  api:
+    <<: *backend-common
+    container_name: fqp-api
+    command:
+      - gunicorn
+      - app.main:app
+      - --bind=0.0.0.0:8000
+      - --workers=${API_WORKERS:-4}
+      - --worker-class=uvicorn.workers.UvicornWorker
+      - --timeout=120
+      - --graceful-timeout=30
+      - --access-logfile=-
+      - --error-logfile=-
+    environment:
+      <<: *backend-env
+      DEBUG: "false"
+      APP_ENV: ${APP_ENV:-production}
+    ports:
+      - "${API_PORT_HOST:-8000}:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    # Lightweight TCP probe — works even before `/health` lands
+    # (task 0.3). Once `/health` exists this can narrow to HTTP.
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - |-
+          python -c "import socket,sys; s=socket.socket(); s.settimeout(3); \
+          s.connect(('127.0.0.1',8000)); s.close()" || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+
+  # -----------------------------------------------------------------
+  # Celery worker — one container listens on all four queues by
+  # default. For production you typically split this into dedicated
+  # worker services per queue (ingest / backtest / ai / notify) with
+  # tuned concurrency; the design doc (§10.2) covers that layout.
+  # -----------------------------------------------------------------
+  worker:
+    <<: *backend-common
+    container_name: fqp-worker
+    command:
+      - celery
+      - -A
+      - app.tasks.celery_app
+      - worker
+      - --loglevel=${CELERY_LOG_LEVEL:-INFO}
+      - --queues=ingest,backtest,ai,notify
+      - --concurrency=${CELERY_WORKER_CONCURRENCY:-4}
+      - --hostname=worker@%h
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      # A running worker process is enough for phase-0 verification;
+      # task 0.5 swaps this for `celery inspect ping`.
+      test: ["CMD-SHELL", "pgrep -f 'celery.*worker' > /dev/null || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  # -----------------------------------------------------------------
+  # Celery beat scheduler — periodic jobs (daily ingest, backups, ...).
+  # -----------------------------------------------------------------
+  beat:
+    <<: *backend-common
+    container_name: fqp-beat
+    command:
+      - celery
+      - -A
+      - app.tasks.celery_app
+      - beat
+      - --loglevel=${CELERY_LOG_LEVEL:-INFO}
+      - --schedule=/app/local_data/celerybeat-schedule
+      - --pidfile=
+    depends_on:
+      redis:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "pgrep -f 'celery.*beat' > /dev/null || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  # -----------------------------------------------------------------
+  # Frontend (React SPA served by nginx). The image's nginx config
+  # reverse-proxies /api → api:8000 and /ws → api:8000/ws.
+  # -----------------------------------------------------------------
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+      target: runtime
+    image: fund-quant-platform/frontend:${IMAGE_TAG:-latest}
+    container_name: fqp-frontend
+    restart: unless-stopped
+    ports:
+      - "${FRONTEND_PORT_HOST:-5173}:80"
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "http://localhost/"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks: [fqp]
+
+  # -----------------------------------------------------------------
+  # Prometheus — metrics scraping. Scrape targets and global settings
+  # live in `deploy/prometheus/prometheus.yml` (bind-mounted read-only
+  # so the container can't mutate it). See requirement 8.5.
+  # -----------------------------------------------------------------
+  prometheus:
+    image: prom/prometheus:v2.54.1
+    container_name: fqp-prometheus
+    restart: unless-stopped
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.path=/prometheus
+      - --storage.tsdb.retention.time=${PROMETHEUS_RETENTION:-15d}
+      - --web.console.libraries=/usr/share/prometheus/console_libraries
+      - --web.console.templates=/usr/share/prometheus/consoles
+      - --web.enable-lifecycle
+    ports:
+      - "${PROMETHEUS_PORT_HOST:-9090}:9090"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./prometheus/alert_rules.yml:/etc/prometheus/rules/alert_rules.yml:ro
+      - prometheus-data:/prometheus
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      # `prom/prometheus` ships with `wget` (via busybox) and with its
+      # own `promtool`. Using wget keeps the probe dependency-free.
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:9090/-/ready"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 15s
+    networks: [fqp]
+
+  # -----------------------------------------------------------------
+  # Alertmanager — alert routing and notification dispatch.
+  # Routes Prometheus alerts to the platform's webhook endpoint which
+  # dispatches to configured notification channels (requirement 8.4).
+  # -----------------------------------------------------------------
+  alertmanager:
+    image: prom/alertmanager:v0.27.0
+    container_name: fqp-alertmanager
+    restart: unless-stopped
+    command:
+      - --config.file=/etc/alertmanager/alertmanager.yml
+      - --storage.path=/alertmanager
+      - --web.listen-address=:9093
+    ports:
+      - "${ALERTMANAGER_PORT_HOST:-9093}:9093"
+    volumes:
+      - ./alertmanager/alertmanager.yml:/etc/alertmanager/alertmanager.yml:ro
+      - alertmanager-data:/alertmanager
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:9093/-/ready"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    networks: [fqp]
+
+  # -----------------------------------------------------------------
+  # Grafana — dashboards over the Prometheus datasource. Datasource
+  # and dashboards are auto-provisioned from `deploy/grafana/`.
+  # Default admin password is `admin`; override in `.env` for any
+  # environment that's reachable outside localhost (requirement 8.6).
+  # -----------------------------------------------------------------
+  grafana:
+    image: grafana/grafana:11.2.0
+    container_name: fqp-grafana
+    restart: unless-stopped
+    environment:
+      GF_SECURITY_ADMIN_USER: ${GRAFANA_ADMIN_USER:-admin}
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_ADMIN_PASSWORD:-admin}
+      GF_USERS_ALLOW_SIGN_UP: "false"
+      GF_USERS_ALLOW_ORG_CREATE: "false"
+      GF_AUTH_ANONYMOUS_ENABLED: "false"
+      GF_ANALYTICS_REPORTING_ENABLED: "false"
+      GF_ANALYTICS_CHECK_FOR_UPDATES: "false"
+      GF_INSTALL_PLUGINS: ""
+    ports:
+      - "${GRAFANA_PORT_HOST:-3000}:3000"
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./grafana/dashboards:/var/lib/grafana/dashboards:ro
+      - grafana-data:/var/lib/grafana
+    depends_on:
+      prometheus:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget --spider -q http://localhost:3000/api/health || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+    networks: [fqp]
+
+volumes:
+  pgdata:
+    name: fqp-pgdata
+  redisdata:
+    name: fqp-redisdata
+  snapshots:
+    name: fqp-snapshots
+  backups:
+    name: fqp-backups
+  logs:
+    name: fqp-logs
+  prometheus-data:
+    name: fqp-prometheus-data
+  alertmanager-data:
+    name: fqp-alertmanager-data
+  grafana-data:
+    name: fqp-grafana-data
+
+networks:
+  fqp:
+    name: fqp-net
+    driver: bridge

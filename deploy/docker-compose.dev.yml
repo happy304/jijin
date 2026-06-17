@@ -1,0 +1,160 @@
+# =====================================================================
+# Fund Quant Platform — Development overrides
+#
+# Designed to overlay `docker-compose.yml` (from the same directory):
+#
+#   docker compose -f deploy/docker-compose.yml \
+#                  -f deploy/docker-compose.dev.yml up
+#
+# Goals (需求 9.5):
+#   • Bind-mount the backend `app/` and frontend sources → live edits
+#   • Run uvicorn / vite with `--reload` / HMR
+#   • Use the image's `dev` stage (dev + test extras installed)
+#   • Disable gunicorn multi-worker (single reloading uvicorn)
+#   • Expose database port to the host for tooling (DBeaver, psql, etc.)
+#   • Keep data volumes separate so dev data doesn't leak into prod
+# =====================================================================
+
+name: fund-quant-platform
+
+services:
+  postgres:
+    # Same image as prod but a friendlier exposed port default for
+    # developers who also run a local postgres on 5432.
+    ports:
+      - "${POSTGRES_PORT_HOST:-55432}:5432"
+    volumes:
+      - pgdata_dev:/var/lib/postgresql/data
+
+  redis:
+    ports:
+      - "${REDIS_PORT_HOST:-56379}:6379"
+    volumes:
+      - redisdata_dev:/data
+
+  api:
+    build:
+      context: ../backend
+      dockerfile: Dockerfile
+      target: dev
+    image: fund-quant-platform/backend-dev:latest
+    # Drop gunicorn multi-worker — uvicorn --reload is friendlier in dev.
+    command:
+      - uvicorn
+      - app.main:app
+      - --host=0.0.0.0
+      - --port=8000
+      - --reload
+      - --reload-dir=/app/app
+    environment:
+      APP_ENV: development
+      DEBUG: "true"
+      LOG_LEVEL: ${LOG_LEVEL:-DEBUG}
+    volumes:
+      # Bind-mount source for hot reload. Tests and pyproject are
+      # mounted too so `pytest` inside the container Just Works.
+      - ../backend/app:/app/app
+      - ../backend/pyproject.toml:/app/pyproject.toml
+      - ../backend/tests:/app/tests
+      # Keep the same named volumes as prod so snapshot/backup layout
+      # stays canonical across environments.
+      - snapshots_dev:/app/local_data/snapshots
+      - backups_dev:/app/local_data/backups
+      - logs_dev:/app/logs
+    # Run as root in dev (the dev stage already switches back to root)
+    # so bind-mounted source on Windows/WSL is writable.
+    user: "0:0"
+
+  worker:
+    build:
+      context: ../backend
+      dockerfile: Dockerfile
+      target: dev
+    image: fund-quant-platform/backend-dev:latest
+    # No autoreload for celery workers — `docker compose restart worker`
+    # after code changes is simpler and more reliable across platforms.
+    # Lower concurrency and verbose logging are the dev-friendly tweaks.
+    command:
+      - celery
+      - -A
+      - app.tasks.celery_app
+      - worker
+      - --loglevel=DEBUG
+      - --queues=ingest,backtest,ai,notify
+      - --concurrency=2
+      - --hostname=worker@%h
+    environment:
+      APP_ENV: development
+      LOG_LEVEL: DEBUG
+    volumes:
+      - ../backend/app:/app/app
+      - ../backend/pyproject.toml:/app/pyproject.toml
+      - snapshots_dev:/app/local_data/snapshots
+      - backups_dev:/app/local_data/backups
+      - logs_dev:/app/logs
+    user: "0:0"
+
+  beat:
+    build:
+      context: ../backend
+      dockerfile: Dockerfile
+      target: dev
+    image: fund-quant-platform/backend-dev:latest
+    command:
+      - celery
+      - -A
+      - app.tasks.celery_app
+      - beat
+      - --loglevel=DEBUG
+      - --schedule=/app/local_data/celerybeat-schedule
+      - --pidfile=
+    environment:
+      APP_ENV: development
+      LOG_LEVEL: DEBUG
+    volumes:
+      - ../backend/app:/app/app
+      - ../backend/pyproject.toml:/app/pyproject.toml
+      - snapshots_dev:/app/local_data/snapshots
+      - backups_dev:/app/local_data/backups
+      - logs_dev:/app/logs
+    user: "0:0"
+
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+      target: dev
+    image: fund-quant-platform/frontend-dev:latest
+    # Inherit the dev stage's CMD (vite dev server or stub http-server
+    # depending on whether package.json exists). Explicit override not
+    # required — leaving it unset keeps the Dockerfile as single
+    # source of truth.
+    environment:
+      NODE_ENV: development
+      CHOKIDAR_USEPOLLING: "true"      # Reliable HMR on Windows/WSL bind mounts
+      VITE_HMR_HOST: localhost
+    volumes:
+      - ../frontend:/app
+      - /app/node_modules              # preserve container-installed deps
+    ports:
+      - "${FRONTEND_PORT_HOST:-5173}:5173"
+    # Dev container serves vite on 5173, not nginx on 80 — adjust port
+    # mapping and healthcheck target accordingly.
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "http://localhost:5173/"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+volumes:
+  pgdata_dev:
+    name: fqp-pgdata-dev
+  redisdata_dev:
+    name: fqp-redisdata-dev
+  snapshots_dev:
+    name: fqp-snapshots-dev
+  backups_dev:
+    name: fqp-backups-dev
+  logs_dev:
+    name: fqp-logs-dev

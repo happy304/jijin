@@ -1,0 +1,117 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+wheels/
+pip-wheel-metadata/
+.installed.cfg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Testing / coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+nosetests.xml
+.hypothesis/
+.cache/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+*.tsbuildinfo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== Node / Frontend =====
+node_modules/
+dist/
+.vite/
+.next/
+.turbo/
+.parcel-cache/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Env & secrets =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ===== IDE / editor =====
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.shared.json
+.idea/
+*.iml
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ===== Assistant/session state =====
+.narrafork/
+.e2e-venv/
+frontend/vite.config.js
+frontend/vite.config.d.ts
+frontend/vite.config.d.ts.map
+
+# ===== Project runtime =====
+logs/
+*.log
+*.pid
+*.bak
+celerybeat-schedule*
+data/snapshots/
+data/cache/
+data/backups/
+local_data/
+tmp/
+.tmp/
+
+# ===== Docker / deploy =====
+.docker/
+deploy/.env
+deploy/.env.*
+!deploy/.env.example
+
+# ===== Database =====
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== Kiro =====
+# Specs & steering are tracked; transient session state (if any) is not
+.kiro/**/.session/

@@ -1,0 +1,15 @@
+# Keep frontend build context lean.
+node_modules/
+dist/
+.vite/
+.next/
+.turbo/
+.parcel-cache/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.idea/
+.vscode/
+coverage/

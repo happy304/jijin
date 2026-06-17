@@ -1,0 +1,29 @@
+# =====================================================================
+# Grafana datasource provisioning — Prometheus
+#
+# Auto-loaded on startup by the Grafana container:
+#   /etc/grafana/provisioning/datasources/prometheus.yml
+# (see `deploy/docker-compose.yml` bind mount).
+#
+# The container-internal URL uses the compose service name so this
+# stays portable across environments.
+#
+# Requirement: 8.6 — Grafana monitoring dashboard
+# =====================================================================
+
+apiVersion: 1
+
+datasources:
+  - name: Prometheus
+    uid: fqp-prometheus
+    type: prometheus
+    access: proxy
+    url: http://prometheus:9090
+    isDefault: true
+    editable: false
+    jsonData:
+      httpMethod: POST
+      timeInterval: 15s
+      manageAlerts: false
+      prometheusType: Prometheus
+      exemplarTraceIdDestinations: []

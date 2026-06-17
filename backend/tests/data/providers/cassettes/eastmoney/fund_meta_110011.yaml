@@ -1,0 +1,577 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - zh-CN,zh;q=0.9,en;q=0.8
+      Connection:
+      - keep-alive
+      Host:
+      - fundf10.eastmoney.com
+      Referer:
+      - http://fundf10.eastmoney.com/
+    method: GET
+    uri: http://fundf10.eastmoney.com/jbgk_110011.html
+  response:
+    body:
+      string: "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n
+        \   <title>\u6613\u65B9\u8FBE\u4F18\u8D28\u7CBE\u9009\u6DF7\u5408(QDII)(110011)\u57FA\u91D1\u57FA\u672C\u6982\u51B5
+        _ \u57FA\u91D1\u6863\u6848 _ \u5929\u5929\u57FA\u91D1\u7F51</title>\r\n    <meta
+        name=\"keywords\" content=\"\u6613\u65B9\u8FBE\u4F18\u8D28\u7CBE\u9009\u6DF7\u5408(QDII),110011,\u57FA\u91D1,\u57FA\u91D1\u6863\u6848,F10,\u57FA\u672C\u6982\u51B5,\u5929\u5929\u57FA\u91D1\u7F51,fund,1234567\"
+        />\r\n    <meta name=\"description\" content=\"\u4E1C\u65B9\u8D22\u5BCC\u7F51(www.eastmoney.com)\u65D7\u4E0B\u57FA\u91D1\u5E73\u53F0\u2014\u2014\u5929\u5929\u57FA\u91D1\u7F51(fund.eastmoney.com)\u63D0\u4F9B\u6613\u65B9\u8FBE\u4F18\u8D28\u7CBE\u9009\u6DF7\u5408(QDII)(110011)\u6700\u65B0\u7684\u57FA\u91D1\u6863\u6848\u4FE1\u606F\uFF0C\u6613\u65B9\u8FBE\u4F18\u8D28\u7CBE\u9009\u6DF7\u5408(QDII)(110011)\u57FA\u91D1\u7684\u57FA\u672C\u6982\u51B5\u4FE1\u606F\u3002\"
+        />\r\n    \r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"
+        />\r\n<meta http-equiv=\"Content-Language\" content=\"zh-CN\" />\r\n<meta
+        http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n<meta http-equiv=\"Cache-Control\"
+        content=\"no-cache\" />\r\n<link href=\"//j5.dfcfw.com/sc/css/f10/common_min1_20210709.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\r\n<link href=\"//j5.dfcfw.com/css/f10/ucbody_min_20200220153055.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\r\n<script src=\"//fund.eastmoney.com/js/fundcode_search.js\"
+        type=\"text/javascript\"></script>\r\n<base target=\"_blank\" />\r\n\r\n    <style
+        type=\"text/css\">\r\n        .div-tip {\r\n            background-color:
+        #fff7eb;\r\n            border: 1px solid #f3d098;\r\n            font-size:
+        12px;\r\n            left: 100px;\r\n            padding: 10px;\r\n            position:
+        absolute;\r\n            top: 358px;\r\n            left: 52px;\r\n        }\r\n\r\n
+        \       .global-poptip-arrow {\r\n            left: 20px;\r\n            top:
+        25px;\r\n        }\r\n\r\n        .global-poptip-arrow em {\r\n            left:
+        0;\r\n            top: 0;\r\n        }\r\n\r\n        .global-poptip-arrow
+        em, .global-poptip-arrow-left em, .global-poptip-arrow-right em {\r\n            color:
+        #f3d098;\r\n        }\r\n\r\n        .global-poptip-arrow, .global-poptip-arrow
+        em, .global-poptip-arrow span {\r\n            font-family: SimSun;\r\n            font-size:
+        14px;\r\n            font-style: normal;\r\n            line-height: 21px;\r\n
+        \           position: absolute;\r\n            z-index: 10;\r\n        }\r\n\r\n
+        \       .global-poptip-arrow span, .global-poptip-arrow-left span, .global-poptip-arrow-right
+        span {\r\n            color: #fff7eb;\r\n            left: 0;\r\n            top:
+        -1px;\r\n        }\r\n\r\n        #div-tip a {\r\n            cursor: pointer;\r\n
+        \       }\r\n\r\n        .pop_close {\r\n            background: url(\"//j5.dfcfw.com/image/201407/20140729133921.png\")
+        no-repeat scroll;\r\n            background-position: -429px -60px;\r\n            height:
+        12px;\r\n            position: absolute;\r\n            right: -1px;\r\n            top:
+        -1px;\r\n            width: 12px;\r\n        }\r\n\r\n       .boxitem .dashed-p
+        {\r\n            padding: 10px 0;\r\n            border-bottom: 1px dashed
+        #ccc;\r\n            margin-bottom: 10px;\r\n        }\r\n       \r\n    </style>\r\n
+        \   \r\n</head>\r\n<body>\r\n\r\n\r\n\r\n    <div class=\"row\">\r\n        <div
+        class=\"col-8\">\r\n            <div class=\"row\">\r\n                <div
+        class=\"col-3\"></div>\r\n                <div class=\"col-3\"></div>\r\n
+        \               <div class=\"col-3\"></div>\r\n                <div class=\"col-3\"></div>\r\n
+        \           </div>\r\n        </div>\r\n        <div class=\"col-4\"></div>\r\n
+        \   </div>\r\n\r\n\r\n    \r\n    <div id=\"bodydiv\">\r\n        \r\n<link
+        rel=\"stylesheet\" href=\"//f1.dfcfw.com/??modules/header/v.2.0/css/header_min.css,modules/nav/v.1.0/css/nav_min.css,css/searchbox.css,modules/declare/v.1.0/css/declare_min.css,modules/searchbar/v.1.0/css/searchBar_min.css,modules/footer/v.1.0/css/footer_min.css\"\r\n
+        \   />\r\n<style>.map_banner{line-height:30px;height:30px}.phone-qrcode{position:relative;width:165px;cursor:pointer;height:30px}.phone-qrcode
+        .icon-phone{background:url(//j5.dfcfw.com/image/201610/20161025170115.png)
+        no-repeat;padding-left:15px;height:22px;margin-top:5px;display:inline-block}.phone-qrcode
+        a.text{position:absolute;text-decoration:none;width:140px;top:0;left:23px}.tipsBubble.tipsQcode{position:absolute;background-color:white;padding:4px
+        8px;border:1px solid #ccc;line-height:1.2;font-size:12px;font-weight:400;z-index:999999;text-align:left;display:none;color:#333;margin-top:5px;width:94px}.tipsQcode
+        p{text-align:center;color:#999;line-height:18px}.poptip-arrow-top{top:-6px}.poptip-arrow-top{height:6px;width:12px;left:7px;margin-left:-6px}.poptip-arrow{position:absolute;overflow:hidden;font-style:normal;font-family:simsun;font-size:12px;text-shadow:0
+        0 2px #ccc}.poptip-arrow i{color:#fff;text-shadow:none}.tit_h3 .searchbox
+        input{width:250px;height:25px; line-height:25px; padding-left:5px; color:
+        #333;}.tit_h3 .searchbox label{float: none;}.clearfix:after{content:\"020\";display:block;height:0;clear:both;visibility:hidden;}.clearfix{zoom:1;}.fund-common-header
+        .header-nav .head-item .float_phone {background-position: 0px -180px !important;}\r\n</style>\r\n<div
+        class=\"mainFrame\">\r\n    <link href=\"//j5.dfcfw.com/css/pinzhong/webconmmon_min_20190415152931.css\"
+        rel=\"stylesheet\" /><div id=\"fund_common_header\" class=\"fund-common-header\"
+        ><div class=\"ui-clear header-nav\"><div class=\"ui-left\"><ul><li class=\"head-item\"><a
+        href=\"javascript:void(0);\" target=\"_self\" id=\"addFavor\">\u6536\u85CF\u672C\u7AD9</a></li><li
+        class=\" head-item login\" id=\"loginTTJJ\"><span class=\"blank blankL\">|</span><a
+        id=\"link_login\" href=\"https://login.1234567.com.cn/login\" target=\"_blank\"
+        class=\" header-icon \">\u5B89\u5168\u767B\u5F55</a><span class=\"blank blankR
+        blankZ\">|</span></li><li class=\"head-item ui-hide\" id=\"logoutTTJJ\"><span
+        class=\"blank blankL\">|</span><span class=\" p8 CustomerName\"></span><a
+        href=\"javascript:void(0);\" target=\"_self\" class=\" header-icon pl20\"
+        id=\"logout\"><span class=\"icon close-icon\"></span>\u5B89\u5168\u9000\u51FA</a></li><li
+        class=\"head-item js-logout-show\"><a href=\"https://register.1234567.com.cn/reg/step1\"
+        target=\"_blank\">\u514D\u8D39\u5F00\u6237</a></li><li class=\"head-item js-logout-show\"><a
+        href=\"https://register.1234567.com.cn/forgetpwd\" target=\"_blank\">\u5FD8\u8BB0\u5BC6\u7801</a></li><li
+        class=\"head-item dropdown\"><span class=\"blank blankL\">|</span><a href=\"http://fundact.eastmoney.com/app/\"
+        class=\"a_phone\" id=\"a_phone\">\u624B\u673A\u5BA2\u6237\u7AEF</a><div id=\"float_phone\"
+        class=\"float_phone dropdown-menu\"><a href=\"http://js1.eastmoney.com/tg.aspx?ID=2771\"
+        class=\"btn btn_iphone\">&nbsp;</a><a href=\"http://js1.eastmoney.com/tg.aspx?ID=2772\"
+        class=\"btn btn_android\">&nbsp;</a></div></li></ul></div><div class=\"ui-right\"><ul
+        class=\"headRight\"><li class=\"head-item\"><a href=\"http://www.1234567.com.cn/\"
+        class=\"header-icon pl20\"><span class=\"icon eastmoney-icon\"></span>\u8FD4\u56DE\u5929\u5929\u57FA\u91D1\u7F51</a></li><li
+        class=\"dropdown  head-item droplist\"><span class=\"blank blankL\">|</span><a
+        href=\"https://trade.1234567.com.cn/\" class=\"red header-icon pr20\">\u57FA\u91D1\u4EA4\u6613<span
+        class=\"icon dropdown-icon\"></span></a><span class=\"blank blankR\">|</span><div
+        class=\"dropdown-menu\"><ul><li><a href=\"https://trade.1234567.com.cn/MyAssets/Default\">\u6211\u7684\u8D44\u4EA7</a></li><li><a
+        href=\"https://trade.1234567.com.cn/xjb/index\">\u6D3B\u671F\u5B9D</a></li><li><a
+        href=\"https://trade.1234567.com.cn/zsb/default\">\u6307\u6570\u5B9D</a></li><li><a
+        href=\"http://fund.eastmoney.com/trade/\">\u4E70\u57FA\u91D1</a></li><li><a
+        href=\"https://trade.1234567.com.cn/Investment/default?\">\u57FA\u91D1\u5B9A\u6295</a></li><li><a
+        href=\"https://query.1234567.com.cn/Query/Index\">\u4EA4\u6613\u67E5\u8BE2</a></li><li><a
+        href=\"http://fund.eastmoney.com/topic.html\">\u57FA\u91D1\u4F18\u9009</a></li></ul></div></li><li
+        class=\"dropdown  head-item droplist\"><a href=\"http://fund.eastmoney.com/daogou/\"
+        class=\" header-icon pr20\">\u4EA7\u54C1\u5BFC\u8D2D<span class=\"icon dropdown-icon\"></span></a><span
+        class=\"blank blankR\">|</span><div class=\"dropdown-menu\"><ul><li><a href=\"http://huoqibao.1234567.com.cn/\">\u6D3B\u671F\u5B9D</a></li><li><a
+        href=\"http://zhishubao.1234567.com.cn/\">\u6307\u6570\u5B9D</a></li><li><a
+        href=\"http://simubao.1234567.com.cn/\">\u79C1\u52DF\u5B9D</a></li><li><a
+        href=\"http://fund.eastmoney.com/trade/default.html\">\u6536\u76CA\u699C</a></li><li><a
+        href=\"http://fundlc.eastmoney.com/\">\u7A33\u5065\u7406\u8D22</a></li><li><a
+        href=\"http://fund.eastmoney.com/gaoduan/\">\u9AD8\u7AEF\u7406\u8D22</a></li><li><a
+        href=\"http://fund.eastmoney.com/topic.html\">\u57FA\u91D1\u4F18\u9009</a></li></ul></div></li><li
+        class=\"head-item\"><a href=\"http://favor.fund.eastmoney.com/\">\u81EA\u9009\u57FA\u91D1</a></li><li
+        class=\"head-item\"><span class=\"blank\">|</span></li><li class=\"head-item\"><a
+        href=\"http://help.1234567.com.cn/\">\u5E2E\u52A9\u4E2D\u5FC3</a></li><li
+        class=\"dropdown  head-item webMap  \"><span class=\"blank blankL\">|</span><a
+        href=\"javascript:void(0)\" target=\"_self\" class=\" header-icon  pl20 pr20\"><span
+        class=\"list-icon icon\"></span>\u7F51\u7AD9\u5BFC\u822A<span class=\"dropdown-icon
+        icon\"></span></a><span class=\"blank blankR blankZ\">|</span><div class=\"dropdown-menu\"><table
+        class=\"ui-table\"><thead><tr><th class=\"nowrap\"><h3>\u70ED\u70B9\u63A8\u8350</h3><div
+        class=\"ui-left\" ><a href=\"http://fundact.eastmoney.com/app/\" class=\"red
+        header-icon\" style=\"_top:8px\" ><span class=\"icon iphone-icon\">&nbsp;</span><span
+        class=\"pbuyfund\">\u624B\u673A\u4E70\u57FA\u91D1</span></a></div></th><th><h3>\u57FA\u91D1\u6570\u636E</h3></th><th
+        class=\"nowrap\"><h3>\u57FA\u91D1\u4EA4\u6613</h3><div class=\"ui-left\"><a
+        href=\"https://login.1234567.com.cn/login\" class=\"red\">\u767B\u5F55</a><span
+        class=\"red\">|</span><a href=\"https://register.1234567.com.cn/reg/step1\"
+        class=\"red\">\u5F00\u6237</a></div></th><th><h3>\u670D\u52A1\u6307\u5357</h3></th></tr></thead><tbody><tr><td><div
+        class=\"content col1\"><a href=\"http://favor.fund.eastmoney.com/\">\u81EA\u9009\u57FA\u91D1</a><a
+        href=\"http://fund.eastmoney.com/Compare/\">\u57FA\u91D1\u6BD4\u8F83</a><br
+        /><a href=\"http://fundlc.eastmoney.com\">\u7A33\u5065\u7406\u8D22</a><a href=\"http://data.eastmoney.com/money/calc/CalcFundSY.html\">\u6536\u76CA\u8BA1\u7B97</a><br
+        /><a href=\"http://fund.eastmoney.com/ztjj/#sort:SYL_3Y:rs:WRANK\">\u4E3B\u9898\u57FA\u91D1</a><a
+        href=\"http://fund.eastmoney.com/manager/default.html#dt14;mcreturnjson;ftall;pn20;pi1;scabbname;stasc\">\u57FA\u91D1\u7ECF\u7406</a><br
+        /><a href=\"http://fund.eastmoney.com/yanbao/\">\u57FA\u91D1\u7814\u7A76</a><a
+        href=\"http://jijinba.eastmoney.com/\">\u57FA&nbsp;&nbsp;\u91D1&nbsp;&nbsp;\u5427</a></div></td><td><div
+        class=\"content col2\"><a href=\"http://fund.eastmoney.com/fund.html\">\u57FA\u91D1\u51C0\u503C</a><a
+        href=\"http://fund.eastmoney.com/tg/\">\u6295\u987E\u7BA1\u5BB6</a><br /><a
+        href=\"http://fund.eastmoney.com/data/fundranking.html\">\u57FA\u91D1\u6392\u884C</a><a
+        href=\"http://fund.eastmoney.com/dingtou/syph_yndt.html\">\u5B9A\u6295\u6392\u884C</a><br
+        /><a href=\"http://fund.eastmoney.com/data/fundrating.html\">\u57FA\u91D1\u8BC4\u7EA7</a><a
+        href=\"http://fund.eastmoney.com/data/fundfenhong.html\">\u57FA\u91D1\u5206\u7EA2</a><br
+        /><a href=\"http://fund.eastmoney.com/company/default.html\">\u57FA\u91D1\u516C\u53F8</a><a
+        href=\"http://simu.eastmoney.com\">\u79C1\u52DF\u57FA\u91D1</a></div></td><td><div
+        class=\"content col3\"><a href=\"http://huoqibao.1234567.com.cn/\">\u6D3B&nbsp;&nbsp;\u671F&nbsp;&nbsp;\u5B9D</a><a
+        href=\"http://simubao.1234567.com.cn/\">\u79C1&nbsp;&nbsp;\u52DF&nbsp;&nbsp;\u5B9D</a><br
+        /><a href=\"http://zhishubao.1234567.com.cn/\">\u6307&nbsp;&nbsp;\u6570&nbsp;&nbsp;\u5B9D</a><a
+        href=\"http://fund.eastmoney.com/gaoduan/\">\u9AD8\u7AEF\u7406\u8D22</a><br
+        /><a href=\"http://fund.eastmoney.com/daogou/\">\u57FA\u91D1\u5BFC\u8D2D</a><a
+        href=\"http://fund.eastmoney.com/trade/default.html\">\u6536\u76CA\u6392\u884C</a><br
+        /><a href=\"http://fundlc.eastmoney.com\">\u7A33\u5065\u7406\u8D22</a><a href=\"//fund.eastmoney.com/topic.html\">\u57FA\u91D1\u4F18\u9009</a></div></td><td><div
+        class=\"content col4\"><a href=\"http://help.1234567.com.cn/\">\u5E2E\u52A9\u4E2D\u5FC3</a><br
+        /><a href=\"http://help.1234567.com.cn/list_812.html\">\u673A\u6784\u6307\u5357</a><br
+        /><a href=\"http://feedback.1234567.com.cn/\">\u610F\u89C1\u53CD\u9988</a><br
+        /><a href=\"http://fundact.eastmoney.com/safety/\">\u5B89\u5168\u4FDD\u969C</a><br
+        /></div></td></tr></tbody></table><span class=\"line line1\"></span><span
+        class=\"line line2\"></span><span class=\"line line3\"></span></div><span
+        class=\"blankW\"></span></li></ul></div></div></div>\r\n</div>\r\n<div class=\"mainFrame\">\r\n
+        \   \r\n<div class=\"fund-common-searchBar\" >\r\n    <div class=\"inner\">\r\n
+        \       <a class=\"logo fl\" href=\"http://www.1234567.com.cn/\" title=\"\u5929\u5929\u57FA\u91D1\u7F51\"
+        target=\"_blank\"></a>\r\n        <h1 class=\"fl\"><a class=\"h1\" href=\"http://fundf10.eastmoney.com/\"
+        target=\"_blank\" title=\"\u57FA\u91D1\u6863\u6848\u4E3B\u9875\">\u57FA\u91D1\u6863\u6848</a></h1>\r\n
+        \       <div class=\"wrapper_min searchArea fr\">\r\n            <div class=\"navbar-item
+        funtype-searchArea-search\">\r\n                <div class=\"searchbar-form
+        search-left\" data-plugin=\"searchBox\" data-target=\"#search-tooltip\">\r\n
+        \                   <div class=\"searchbar-select search-left\" data-searchbox=\"select\">\r\n
+        \                       <div class=\"select-head\">\r\n                            <p
+        class=\"headContent\" onselectstart=\"return false;\" style=\"-moz-user-select:
+        none;\">\u57FA&nbsp;\u91D1</p>\r\n                            <span class=\"searchBtnIco\"></span>\r\n
+        \                       </div>\r\n                        <div class=\"select-option\">\r\n
+        \                           <ul>\r\n                                <li class=\"active\"
+        data-select-to=\"fund\">\u57FA&nbsp;\u91D1</li>\r\n                                <li
+        data-select-to=\"fund-manager\">\u57FA\u91D1\u7ECF\u7406</li>\r\n                                <li
+        class=\"noborder\" data-select-to=\"fund-corp\">\u57FA\u91D1\u516C\u53F8</li>\r\n
+        \                           </ul>\r\n                        </div>\r\n                    </div>\r\n
+        \                   <div class=\"searchbar-input search-left\">\r\n\r\n                        <input
+        type=\"text\" id=\"search-input\" data-searchbox=\"input\" autocomplete=\"off\"
+        url=\" \" />\r\n                        <label class=\"em-placehold search-que\"
+        for=\"search-input\" onselectstart=\"return false;\" style=\"-moz-user-select:
+        none;\"><i class=\"\"></i>\u8BF7\u8F93\u5165\u57FA\u91D1\u4EE3\u7801\u3001\u540D\u79F0\u6216\u7B80\u62FC</label>\r\n
+        \                       <div class=\"search-tooltip\" id=\"search-tooltip\"></div>\r\n
+        \                   </div>\r\n                    <div class=\"searchbar-btn
+        search-left\">\r\n                        <button class=\"search-submit\"
+        data-searchbox=\"submit\" type=\"submit\">\u641C\u7D22</button>\r\n                    </div>\r\n
+        \               </div>\r\n            </div>\r\n\r\n            <div class=\"fl
+        links\">\r\n                <a class=\"first\" href=\"http://fund.eastmoney.com/allfund.html\"
+        target=\"_blank\">\u57FA\u91D1\u4EE3\u7801</a>\r\n                <a href=\"http://fund.eastmoney.com/company/default.html#scomname;dasc\"
+        target=\"_blank\">\u57FA\u91D1\u516C\u53F8</a>\r\n                <a class=\"favorPage\"
+        href=\"javascript:;\" id=\"favorPage\" target=\"_self\"><span class=\"favorPage-star\">\u2605</span>\u6536\u85CF\u672C\u9875</a>\r\n
+        \           </div>\r\n        </div>\r\n        <div class=\"clear\"></div>\r\n
+        \   </div>\r\n</div>\r\n\r\n\r\n</div>\r\n<div class=\"mainFrame\">\r\n    <link
+        href=\"//j5.dfcfw.com/css/pinzhong/webconmmon_min_20190415152931.css\" rel=\"stylesheet\"
+        />\r\n\r\n<div class=\"fund-common-header2\">\r\n    <div class=\"fundtypeNav
+        width990\">\r\n        <div class=\"navItem navItem01\">\r\n            <ul>\r\n
+        \               <li>\r\n                    <a class=\"ui-blod w52\" href=\"http://fund.eastmoney.com/data/\">\u57FA\u91D1\u6570\u636E</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/fund.html\">\u57FA\u91D1\u51C0\u503C</a>\r\n
+        \                   <a href=\"//fund.eastmoney.com/tg/\">\u6295\u987E\u7BA1\u5BB6</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/data/fundranking.html\">\u57FA\u91D1\u6392\u884C</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/dingtou/syph_yndt.html\">\u5B9A\u6295</a>\r\n
+        \                   <a href=\"http://overseas.1234567.com.cn\">\u6E2F\u57FA</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/data/fundrating.html\">\u8BC4\u7EA7</a>\r\n
+        \               </li>\r\n                <li>\r\n                    <a class=\"w52\"
+        href=\"http://fund.eastmoney.com/company/default.html\">\u57FA\u91D1\u516C\u53F8</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/000001.html\">\u57FA\u91D1\u54C1\u79CD</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/XFXJJ_jzrgq12.html\">\u65B0\u53D1\u57FA\u91D1</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/Fund_sgzt_bzdm.html\">\u7533\u8D2D\u72B6\u6001</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/data/fundfenhong.html\">\u5206\u7EA2</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/gonggao\">\u516C\u544A</a>\r\n
+        \                   <a href=\"http://simu.eastmoney.com\">\u79C1\u52DF</a>\r\n
+        \               </li>\r\n            </ul>\r\n        </div>\r\n        <span
+        class=\"lineType01\"></span>\r\n        <div class=\"navItem navItem02\">\r\n
+        \           <ul>\r\n                <li>\r\n                    <a class=\"ui-blod
+        w52\" href=\"http://favor.fund.eastmoney.com/\">\u6295\u8D44\u5DE5\u5177</a>\r\n
+        \                   <a href=\"http://favor.fund.eastmoney.com/\">\u81EA\u9009\u57FA\u91D1</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/Compare/\">\u6BD4\u8F83</a>\r\n
+        \               </li>\r\n                <li>\r\n                    <a class=\"w52\"
+        href=\"http://fund.eastmoney.com/data/fundshaixuan.html\">\u57FA\u91D1\u7B5B\u9009</a>\r\n
+        \                   <a href=\"http://data.eastmoney.com/money/calc/CalcFundSY.html\">\u6536\u76CA\u8BA1\u7B97</a>\r\n
+        \                   <a href=\"http://fundbook.eastmoney.com/\">\u8D26\u672C</a>\r\n
+        \               </li>\r\n            </ul>\r\n        </div>\r\n        <span
+        class=\"lineType01\"></span>\r\n        <div class=\"navItem navItem03\">\r\n
+        \           <ul>\r\n                <li>\r\n                    <a class=\"ui-blod
+        w52\" href=\"https://kuaixun.eastmoney.com/jj.html\">\u8D44\u8BAF\u4E92\u52A8</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/a/cjjyw.html\">\u8981\u95FB</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/a/cjjgd.html\">\u89C2\u70B9</a>\r\n
+        \                   <a class=\"tSpace01\" href=\"http://fund.eastmoney.com/a/cjjxx.html\">\u5B66\u6821</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/topic/#000\">\u4E13\u9898</a>\r\n
+        \               </li>\r\n                <li>\r\n                    <a class=\"w52\"
+        href=\"http://fund.eastmoney.com/yanbao/\">\u57FA\u91D1\u7814\u7A76</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/a/cjjtzcl.html\">\u7B56\u7565</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/a/csmjj.html\">\u79C1\u52DF</a>\r\n
+        \                   <a href=\"http://jijinba.eastmoney.com/\">\u57FA\u91D1\u5427</a>\r\n
+        \                   <a class=\"dgx\" href=\"http://js1.eastmoney.com/tg.aspx?ID=5098\">\u76F4\u64AD</a>\r\n
+        \               </li>\r\n            </ul>\r\n        </div>\r\n        <span
+        class=\"lineType02 icon ico-shopcar\">\r\n            <i></i>\r\n        </span>\r\n
+        \       <div class=\"navItem navItem04\">\r\n            <ul>\r\n                <li>\r\n
+        \                   <a class=\"shopcar w52\" href=\"https://trade.1234567.com.cn/\">\r\n
+        \                       <span>\u57FA\u91D1\u4EA4\u6613</span>\r\n                    </a>\r\n
+        \                   <a class=\"tSpace01\" href=\"http://huoqibao.1234567.com.cn/\">\u6D3B\u671F\u5B9D</a>\r\n
+        \                   <a class=\"tSpace01\" href=\"http://zhishubao.1234567.com.cn/\">\u6307\u6570\u5B9D</a>\r\n
+        \                   <a href=\"https://fundlc.eastmoney.com/\">\u7A33\u5065\u7406\u8D22</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/gaoduan/\">\u9AD8\u7AEF\u7406\u8D22</a>\r\n
+        \               </li>\r\n                <li>\r\n                    <a class=\"w52\"
+        href=\"http://fund.eastmoney.com/tradeindex.html\">\u57FA\u91D1\u8D85\u5E02</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/daogou\">\u57FA\u91D1\u5BFC\u8D2D</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/trade/default.html\">\u6536\u76CA\u6392\u884C</a>\r\n
+        \                   <a href=\"http://fund.eastmoney.com/fundhot8.html\">\u70ED\u9500\u57FA\u91D1</a>\r\n
+        \                   <a href=\"//fundzt.eastmoney.com/2017/newwxph/\">\u4E94\u661F\u57FA\u91D1</a>\r\n
+        \               </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n</div>\r\n\r\n<div
+        class=\"mainFrame\">\r\n    <div class=\"space6\"></div>\r\n    <div class=\"fund_quote\">\r\n
+        \       <div>\r\n            <iframe marginheight='0' marginwidth='0' frameborder='0'
+        width='998' height='30' scrolling='no' src='//fund.eastmoney.com/fund_favor_quote2_beta.html?v=dddgg'></iframe>\r\n
+        \       </div>\r\n    </div>\r\n</div>\r\n\r\n<div class=\"mainFrame\">\r\n
+        \   <div class=\"map_banner\">\r\n        <div class=\"left\">\r\n            <a
+        href=\"http://fund.eastmoney.com/\" class=\"map\">\u5929\u5929\u57FA\u91D1\u7F51</a>&nbsp;>&nbsp;<a
+        href=\"//fundf10.eastmoney.com/\">\u57FA\u91D1\u6863\u6848</a>&nbsp;>&nbsp;\u6613\u65B9\u8FBE\u4F18\u8D28\u7CBE\u9009\u6DF7\u5408(QDII)\r\n
+        \       </div>\r\n        <div class=\"right \">\r\n            <div class=\"phone-qrcode\"
+        onmouseover=\"document.getElementById('tipsQcode').style.display = 'block'\"
+        onmouseout=\"document.getElementById('tipsQcode').style.display = 'none'\">\r\n
+        \               <span class=\"icon-phone\"></span>\r\n                <a class=\"text\">\u624B\u673A\u8BBF\u95EE\u5F53\u524D\u57FA\u91D1\u54C1\u79CD\u9875</a>\r\n
+        \           </div>\r\n            <div id=\"tipsQcode\" class=\"tipsBubble
+        \ tipsQcode\">\r\n                <span class=\"poptip-arrow poptip-arrow-top\"><i>\u25C6</i>\r\n
+        \               </span>\r\n                <img src=\"//fund.eastmoney.com/images/QRCode/110011.jpg\"><p>\u626B\u4E00\u626B\u4E8C\u7EF4\u7801</p>\r\n
+        \               <p>\u7528\u624B\u673A\u6253\u5F00\u9875\u9762</p>\r\n            </div>\r\n
+        \       </div>\r\n    </div>\r\n</div>\r\n<div class=\"mainFrame\">\r\n    <div>\r\n
+        \       <iframe marginheight='0' marginwidth='0' frameborder='0' width='1000'
+        height=\"60\" scrolling='no' src='//fundact.eastmoney.com/banner/hqb_hq.html?spm=001001.sbb'></iframe>\r\n
+        \   </div>\r\n</div>\r\n<div class=\"mainFrame\">\r\n    <div id=\"visitfund\"></div>\r\n</div>\r\n<script
+        type=\"text/javascript\" src=\"//j5.dfcfw.com/js/pinzhong/getcookies_20140928104112.js\"></script>\r\n<script
+        type=\"text/javascript\">\r\n    if (returnvisit != null && returnvisit !=
+        \"\") { document.getElementById(\"visitfund\").innerHTML = returnvisit; }\r\n</script>\r\n\r\n
+        \       <div class=\"mainFrame\">\r\n            <div class=\"space6\"></div>\r\n
+        \           <div class=\"l_menu left\">\r\n                \r\n<h3></h3>\r\n<div
+        class=\"lm_out\">\r\n    <div class=\"lm_in\" id=\"dlcontent\">\r\n        <div
+        class=\"backpz\"><a class=\"red\" href=\"//fund.eastmoney.com/110011.html\">\u8FD4\u56DE\u57FA\u91D1\u54C1\u79CD\u9875</a></div>\r\n
+        \       <dl>\r\n            <dt><span>\u57FA\u672C\u8D44\u6599</span><b class=\"ico
+        pinch\"></b></dt>\r\n            <dd id=\"f10_menu_jjgk\" class=\"at\"><a
+        href=\"jbgk_110011.html\" target=\"_self\">\u57FA\u672C\u6982\u51B5</a></dd>\r\n
+        \           <dd id=\"f10_menu_jjjl\"><a href=\"jjjl_110011.html\" target=\"_self\">\u57FA\u91D1\u7ECF\u7406</a></dd>\r\n
+        \           <dd id=\"f10_menu_jjgs\"><a href=\"http://fund.eastmoney.com/company/80000229.html\"
+        target=\"_blank\">\u57FA\u91D1\u516C\u53F8</a></dd>\r\n            <dd id=\"f10_menu_jjpj\"><a
+        href=\"jjpj_110011.html\" target=\"_self\">\u57FA\u91D1\u8BC4\u7EA7</a></dd>\r\n
+        \           <dd id=\"f10_menu_tssj\" class=\"nb\"><a href=\"tsdata_110011.html\"
+        target=\"_self\">\u7279\u8272\u6570\u636E</a></dd>\r\n        </dl>\r\n        <dl>\r\n
+        \           <dt><span>\u51C0\u503C\u56DE\u62A5</span><b class=\"ico pinch\"></b></dt>\r\n
+        \           <dd id=\"f10_menu_lsjz\"><a href=\"jjjz_110011.html\" target=\"_self\">\u5386\u53F2\u51C0\u503C</a><b
+        class=\"ico hot\"></b></dd>\r\n            <dd id=\"f10_menu_fhsp\"><a href=\"fhsp_110011.html\"
+        target=\"_self\">\u5206\u7EA2\u9001\u914D</a></dd>\r\n            <dd id=\"f10_menu_jdzf\"><a
+        href=\"jdzf_110011.html\" target=\"_self\">\u9636\u6BB5\u6DA8\u5E45</a></dd>\r\n
+        \           <dd id=\"f10_menu_jndzf\" class=\"nb\"><a href=\"jndzf_110011.html\"
+        target=\"_self\">\u5B63/\u5E74\u5EA6\u6DA8\u5E45</a></dd>\r\n        </dl>\r\n
+        \       <dl>\r\n            <dt><span>\u6295\u8D44\u7EC4\u5408</span><b class=\"ico
+        pinch\"></b></dt>\r\n            <dd id=\"f10_menu_jjcc\"><a href=\"ccmx_110011.html\"
+        target=\"_self\">\u57FA\u91D1\u6301\u4ED3</a></dd>\r\n            <dd id=\"f10_menu_zqcc\"><a
+        href=\"ccmx1_110011.html\" target=\"_self\">\u503A\u5238\u6301\u4ED3</a></dd>\r\n
+        \           <dd id=\"f10_menu_ccbdzs\"><a href=\"ccbdzs_110011.html\" target=\"_self\">\u6301\u4ED3\u53D8\u52A8\u8D70\u52BF</a></dd>\r\n
+        \           <dd id=\"f10_menu_hypz\"><a href=\"hytz_110011.html\" target=\"_self\">\u884C\u4E1A\u914D\u7F6E</a></dd>\r\n
+        \           <dd id=\"f10_menu_hypzsy\"><a href=\"hypzsy_110011.html\" target=\"_self\">\u884C\u4E1A\u914D\u7F6E\u6BD4\u8F83</a></dd>\r\n
+        \           <dd id=\"f10_menu_zcpz\"><a href=\"zcpz_110011.html\" target=\"_self\">\u8D44\u4EA7\u914D\u7F6E</a></dd>\r\n
+        \           <dd id=\"f10_menu_zdbd\" class=\"nb\"><a href=\"ccbd_110011.html\"
+        target=\"_self\">\u91CD\u5927\u53D8\u52A8</a></dd>\r\n        </dl>\r\n        <dl>\r\n
+        \           <dt><span>\u89C4\u6A21\u4EFD\u989D</span><b class=\"ico pinch\"></b></dt>\r\n
+        \           <dd id=\"f10_menu_gmbd\"><a href=\"gmbd_110011.html\" target=\"_self\">\u89C4\u6A21\u53D8\u52A8</a></dd>\r\n
+        \           <dd id=\"f10_menu_cyrjg\" class=\"nb\"><a href=\"cyrjg_110011.html\"
+        target=\"_self\">\u6301\u6709\u4EBA\u7ED3\u6784</a></dd>\r\n        </dl>\r\n
+        \       <dl>\r\n            <dt><span>\u57FA\u91D1\u516C\u544A</span><b class=\"ico
+        pinch\"></b></dt>\r\n            <dd id=\"f10_menu_jjgg\"><a href=\"jjgg_110011.html\"
+        target=\"_self\">\u5168\u90E8\u516C\u544A</a></dd>\r\n            <dd id=\"f10_menu_fxyz\"><a
+        href=\"jjgg_110011_1.html\" target=\"_self\">\u53D1\u884C\u8FD0\u4F5C</a></dd>\r\n
+        \           <dd id=\"f10_menu_fhgg\"><a href=\"jjgg_110011_2.html\" target=\"_self\">\u5206\u7EA2\u516C\u544A</a></dd>\r\n
+        \           <dd id=\"f10_menu_dqbg\"><a href=\"jjgg_110011_3.html\" target=\"_self\">\u5B9A\u671F\u62A5\u544A</a></dd>\r\n
+        \           <dd id=\"f10_menu_rstz\"><a href=\"jjgg_110011_4.html\" target=\"_self\">\u4EBA\u4E8B\u8C03\u6574</a></dd>\r\n
+        \           <dd id=\"f10_menu_jjxs\"><a href=\"jjgg_110011_5.html\" target=\"_self\">\u57FA\u91D1\u9500\u552E</a></dd>\r\n
+        \           <dd id=\"f10_menu_qtgg\" class=\"nb\"><a href=\"jjgg_110011_6.html\"
+        target=\"_self\">\u5176\u4ED6\u516C\u544A</a></dd>\r\n        </dl>\r\n        <dl>\r\n
+        \           <dt><span>\u8D22\u52A1\u62A5\u8868</span><b class=\"ico pinch\"></b></dt>\r\n
+        \           <dd id=\"f10_menu_cwzb\"><a href=\"cwzb_110011.html\" target=\"_self\">\u8D22\u52A1\u6307\u6807</a></dd>\r\n
+        \           <dd id=\"f10_menu_fzb\"><a href=\"zcfzb_110011.html\" target=\"_self\">\u8D44\u4EA7\u8D1F\u503A\u8868</a></dd>\r\n
+        \           <dd id=\"f10_menu_lrb\"><a href=\"lrfpb_110011.html\" target=\"_self\">\u5229\u6DA6\u8868</a></dd>\r\n
+        \           \r\n            <dd id=\"f10_menu_srfx\"><a href=\"srfx_110011.html\"
+        target=\"_self\">\u6536\u5165\u5206\u6790</a></dd>\r\n            <dd id=\"f10_menu_fyfx\"
+        class=\"nb\"><a href=\"fyfx_110011.html\" target=\"_self\">\u8D39\u7528\u5206\u6790</a></dd>\r\n
+        \       </dl>\r\n        <dl>\r\n            <dt><span>\u9500\u552E\u4FE1\u606F</span><b
+        class=\"ico pinch\"></b></dt>\r\n            <dd id=\"f10_menu_jjfl\"><a href=\"jjfl_110011.html\"
+        target=\"_self\">\u8D2D\u4E70\u4FE1\u606F\uFF08\u8D39\u7387\u8868\uFF09</a></dd>\r\n
+        \           <dd id=\"f10_menu_jjzh\"><a href=\"jjzh_110011.html\" target=\"_self\">\u540C\u516C\u53F8\u57FA\u91D1\u8F6C\u6362</a></dd>\r\n
+        \           \r\n        </dl>\r\n    </div>\r\n</div>\r\n<div class=\"space6\"></div>\r\n<h3
+        class=\"rel\"><a href=\"http://fund.eastmoney.com/company/80000229.html\"></a></h3>\r\n<div
+        class=\"lm_out relout\">\r\n    <div class=\"lm_in relin\">\r\n        <ul
+        id='scompany'><li><b class=\"ico trig\"></b><a title='\u6613\u65B9\u8FBE\u6210\u957F\u9A71\u52A8\u6DF7\u5408A'
+        href=\"jbgk_026066.html\">\u6613\u65B9\u8FBE\u6210\u957F\u9A71\u52A8\u6DF7\u5408A</a></li><li><b
+        class=\"ico trig\"></b><a title='\u6613\u65B9\u8FBE\u6210\u957F\u9A71\u52A8\u6DF7\u5408C'
+        href=\"jbgk_026067.html\">\u6613\u65B9\u8FBE\u6210\u957F\u9A71\u52A8\u6DF7\u5408C</a></li><li><b
+        class=\"ico trig\"></b><a title='\u6613\u65B9\u8FBE\u5148\u950B\u6210\u957F\u6DF7\u5408A'
+        href=\"jbgk_011891.html\">\u6613\u65B9\u8FBE\u5148\u950B\u6210\u957F\u6DF7\u5408A</a></li><li><b
+        class=\"ico trig\"></b><a title='\u6613\u65B9\u8FBE\u5148\u950B\u6210\u957F\u6DF7\u5408C'
+        href=\"jbgk_011892.html\">\u6613\u65B9\u8FBE\u5148\u950B\u6210\u957F\u6DF7\u5408C</a></li><li><b
+        class=\"ico trig\"></b><a title='\u6613\u65B9\u8FBE\u8FDC\u89C1\u6210\u957F\u6DF7\u5408A'
+        href=\"jbgk_010115.html\">\u6613\u65B9\u8FBE\u8FDC\u89C1\u6210\u957F\u6DF7\u5408A</a></li><li><b
+        class=\"ico trig\"></b><a title='\u6613\u65B9\u8FBE\u8FDC\u89C1\u6210\u957F\u6DF7\u5408C'
+        href=\"jbgk_011412.html\">\u6613\u65B9\u8FBE\u8FDC\u89C1\u6210\u957F\u6DF7\u5408C</a></li></ul><ul
+        class=\"more\"><li><a href=\"//fund.eastmoney.com/company/80000229.html\">\u67E5\u770B\u65D7\u4E0B\u5168\u90E8\u57FA\u91D1>></a></li></ul>\r\n
+        \   </div>\r\n</div>\r\n\r\n            </div>\r\n            <div class=\"r_cont
+        right\">\r\n                <!-- \u6B63\u6587\u90E8\u4EFD\u5F00\u59CB -->\r\n
+        \               \r\n<div class=\"basic-new \">\r\n    <div class=\"bs_jz\">\r\n
+        \       <div class=\"col-left\">\r\n            <h4 class=\"title\"><a title=\"\u6613\u65B9\u8FBE\u4F18\u8D28\u7CBE\u9009\u6DF7\u5408(QDII)\"
+        href=\"http://fund.eastmoney.com/110011.html\">\u6613\u65B9\u8FBE\u4F18\u8D28\u7CBE\u9009\u6DF7\u5408(QDII)
+        (110011)</a></h4>\r\n            <div>\r\n                \r\n                <a
+        class=\"btn  btn-red \" href=\"https://trade.1234567.com.cn/FundtradePage/default2.aspx?fc=110011&spm=pzm\"
+        target=\"_blank\">\r\n                    <span class=\" label\">\u8D2D\u4E70</span>\r\n
+        \                   <span>10\u5143\u8D77</span>\r\n                </a>\r\n\r\n
+        \               \r\n                <a class=\"btn btn-org\" href=\"https://trade.1234567.com.cn/Investment/add.aspx?fc=110011&spm=pzm\">\r\n
+        \                   <span class=\"label\">\u5B9A\u6295</span>\r\n                    <span>10\u5143\u8D77</span>\r\n
+        \               </a>\r\n                \r\n                <a class=\"btn
+        btn-blue sm\" href=\"http://fund.eastmoney.com/data/favorapi.aspx?c=110011\">\r\n
+        \                   <span class=\"midd label\">+\u52A0\u81EA\u9009</span>\r\n
+        \               </a>\r\n            </div>\r\n\r\n        </div>\r\n        <div
+        class=\"col-right\">\r\n            \r\n            <p class=\"row row1\">\r\n
+        \               <label>\r\n                    \u5355\u4F4D\u51C0\u503C\uFF0805-12\uFF09\uFF1A\r\n
+        \               <b class=\"grn lar bold\">\r\n                    4.7064 (
+        -0.87% )</b>\r\n                </label>\r\n            </p>\r\n            \r\n\r\n
+        \           <p class=\"row\">\r\n                <label>\r\n                    \u4EA4\u6613\u72B6\u6001\uFF1A<span>\u9650\u5927\u989D
+        </span>\r\n                    \r\n                    <span>\uFF08<span>\u5355\u65E5\u7D2F\u8BA1\u8D2D\u4E70\u4E0A\u96505.00\u4E07\u5143</span>\uFF09</span>\r\n
+        \                   <span>\u5F00\u653E\u8D4E\u56DE</span>\r\n                </label>\r\n
+        \           </p>\r\n            <p class=\"row\">\r\n                <label>\r\n
+        \                   \u8D2D\u4E70\u624B\u7EED\u8D39\uFF1A\r\n                    <b
+        class=\"sourcerate\">1.50%</b>&nbsp;\r\n                    <b>0.15%</b>&nbsp;\r\n
+        \                   \r\n                    <span><b class=\"red\">1</b><b>\u6298</b>
+        </span>\r\n                    \r\n                    <a class=\"link-flxq\"
+        href=\"//fundf10.eastmoney.com/jjfl_110011.html\" style=\"font-family: SimSun\">\u8D39\u7387\u8BE6\u60C5&gt;</a>\r\n
+        \               </label>\r\n\r\n                \r\n            </p>\r\n        </div>\r\n
+        \   </div>\r\n    <div class=\"bs_gl\">\r\n        <div class=\"space0\"></div>\r\n
+        \       <p>\r\n            <label>\u6210\u7ACB\u65E5\u671F\uFF1A<span>2008-06-19</span></label>\r\n
+        \           <label>\r\n                \u57FA\u91D1\u7ECF\u7406\uFF1A&nbsp;&nbsp;<a
+        href=\"//fund.eastmoney.com/manager/30189744.html\">\u5F20\u5764</a></label>\r\n
+        \           <label>\u7C7B\u578B\uFF1A<span>QDII-\u6DF7\u5408\u504F\u80A1</span></label>\r\n
+        \           <label>\u7BA1\u7406\u4EBA\uFF1A<a href=\"http://fund.eastmoney.com/company/80000229.html\">\u6613\u65B9\u8FBE\u57FA\u91D1</a></label>\r\n
+        \           <label>\r\n                \u51C0\u8D44\u4EA7\u89C4\u6A21\uFF1A<span>\r\n
+        \                   95.44\u4EBF\u5143\r\n                    \uFF08\u622A\u6B62\u81F3\uFF1A2026-03-31\uFF09</span></label>\r\n
+        \       </p>\r\n    </div>\r\n</div>\r\n\r\n                <div class=\"detail\">\r\n\r\n
+        \                   <div class=\"space8\"></div>\r\n                    <div
+        class=\"tit_h3\">\r\n                        <div class=\"space0\"></div>\r\n
+        \                       <h1 class=\"left\">\r\n                            <a
+        class=\"tit\" href=\"jbgk_110011.html\">\u57FA\u672C\u6982\u51B5</a><b class=\"ico
+        arrow\"></b>\r\n                        </h1>\r\n                        <div
+        class=\"right clearfix\" style=\"margin-top: 13px; padding-right: 10px;\">\r\n
+        \                           <div style=\"float:left; line-height: 30px;\"><label>\u5176\u4ED6\u57FA\u91D1\u57FA\u672C\u6982\u51B5\u67E5\u8BE2\uFF1A</label></div>\r\n
+        \                           \r\n                                <div class=\"searchbox\"
+        style=\"position: relative; float: left;\">\r\n                                    <input
+        type=\"text\" id=\"search-input1\" />\r\n                                </div>\r\n
+        \                           \r\n                          \r\n                        </div>\r\n
+        \                   </div>\r\n                    <div class=\"txt_cont\">\r\n
+        \                       <div class=\"txt_in\">\r\n                            <div
+        class=\"box\" style=\"position: relative;\">\r\n\r\n                                <table
+        class=\"info w790\"><tr><th>\u57FA\u91D1\u5168\u79F0</th><td style='width:300px;padding-right:10px;'>\u6613\u65B9\u8FBE\u4F18\u8D28\u7CBE\u9009\u6DF7\u5408\u578B\u8BC1\u5238\u6295\u8D44\u57FA\u91D1</td><th>\u57FA\u91D1\u7B80\u79F0</th><td>\u6613\u65B9\u8FBE\u4F18\u8D28\u7CBE\u9009\u6DF7\u5408(QDII)</td></tr><tr><th>\u57FA\u91D1\u4EE3\u7801</th><td>110011\uFF08\u524D\u7AEF\uFF09<th>\u57FA\u91D1\u7C7B\u578B</th><td>QDII-\u6DF7\u5408\u504F\u80A1</td></tr><tr><th>\u53D1\u884C\u65E5\u671F</th><td>2008\u5E7405\u670828\u65E5</td><th>\u6210\u7ACB\u65E5\u671F/\u89C4\u6A21</th><td>2008\u5E7406\u670819\u65E5
+        / 12.267\u4EBF\u4EFD</td></tr><tr><th>\u51C0\u8D44\u4EA7\u89C4\u6A21</th><td>95.44\u4EBF\u5143\uFF08\u622A\u6B62\u81F3\uFF1A2026\u5E7403\u670831\u65E5\uFF09<th>\u4EFD\u989D\u89C4\u6A21</th><td><a
+        href=\"gmbd_110011.html\">19.4378\u4EBF\u4EFD</a>\uFF08\u622A\u6B62\u81F3\uFF1A2026\u5E7403\u670831\u65E5\uFF09</td></tr><tr><th>\u57FA\u91D1\u7BA1\u7406\u4EBA</th><td><a
+        href=\"//fund.eastmoney.com/company/80000229.html\">\u6613\u65B9\u8FBE\u57FA\u91D1</a></td><th>\u57FA\u91D1\u6258\u7BA1\u4EBA</th><td><a
+        href=\"//fund.eastmoney.com/bank/80001122.html\">\u4E2D\u56FD\u94F6\u884C</a></td></tr><tr><th>\u57FA\u91D1\u7ECF\u7406\u4EBA</th><td><a
+        href=\"//fund.eastmoney.com/manager/30189744.html\">\u5F20\u5764</a></td><th>\u6210\u7ACB\u6765\u5206\u7EA2</th><td><a
+        href=\"fhsp_110011.html\">\u6BCF\u4EFD\u7D2F\u8BA11.79\u5143\uFF084\u6B21\uFF09</a></td></tr><tr><th>\u7BA1\u7406\u8D39\u7387</th><td>1.20%\uFF08\u6BCF\u5E74\uFF09</td><th>\u6258\u7BA1\u8D39\u7387</th><td>0.20%\uFF08\u6BCF\u5E74\uFF09</td></tr><tr><th>\u9500\u552E\u670D\u52A1\u8D39\u7387</th><td>---\uFF08\u6BCF\u5E74\uFF09</td><th>\u6700\u9AD8\u8BA4\u8D2D\u8D39\u7387</th><td>1.20%\uFF08\u524D\u7AEF\uFF09</td></tr><th>\u6700\u9AD8\u7533\u8D2D\u8D39\u7387</th><td><span
+        style=\"text-decoration:line-through;color:#666666\">1.50%\uFF08\u524D\u7AEF\uFF09</span><br><span>\u5929\u5929\u57FA\u91D1\u4F18\u60E0\u8D39\u7387\uFF1A<span
+        style=\"Color:#ff0000\">0.15%\uFF08\u524D\u7AEF\uFF09</span></span></td><th>\u6700\u9AD8\u8D4E\u56DE\u8D39\u7387</th><td>1.50%\uFF08\u524D\u7AEF\uFF09</td></tr><tr><th>\u4E1A\u7EE9\u6BD4\u8F83\u57FA\u51C6</th><td
+        \ style=\"width:300px\">\u6CAA\u6DF1300\u6307\u6570\u6536\u76CA\u7387*50%+\u4E2D\u8BC1\u9999\u6E2F300\u6307\u6570\u6536\u76CA\u7387*30%+\u4E2D\u503A\u603B\u6307\u6570\u6536\u76CA\u7387*20%</td><th>\u8DDF\u8E2A\u6807\u7684</th><td
+        style=\"color: #808080;\">\u8BE5\u57FA\u91D1\u65E0\u8DDF\u8E2A\u6807\u7684</td></tr></table>\r\n
+        \                               <div id=\"div-tip\" class=\"div-tip\" style=\"z-index:
+        9999999; display: none;\">\r\n                                    <div class=\"global-poptip-arrow\"><em>\u25C6</em><span>\u25C6</span></div>\r\n
+        \                                   \u4EC0\u4E48\u662F\u4FDD\u672C\u57FA\u91D1\u7684\u4FDD\u672C\u6A21\u5F0F?&nbsp;&nbsp;<a
+        href=\"http://help.1234567.com.cn/question_795.html\">\u8BE6\u60C5</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+        id=\"sort_close\" onclick=\"document.getElementById(&quot;div-tip&quot;).style.display='none'\"
+        class=\"pop_close\"></a>\r\n                                </div>\r\n                                <div
+        class=\"tfoot\">\r\n                                    <font class=\"px14\">\u57FA\u91D1\u7BA1\u7406\u8D39\u548C\u6258\u7BA1\u8D39\u76F4\u63A5\u4ECE\u57FA\u91D1\u4EA7\u54C1\u4E2D\u6263\u9664\uFF0C\u5177\u4F53\u8BA1\u7B97\u65B9\u6CD5\u53CA\u8D39\u7387\u7ED3\u6784\u8BF7\u53C2\u89C1<a
+        href=\"//fundf10.eastmoney.com/jjgg_110011_1.html\">\u57FA\u91D1\u300A\u62DB\u52DF\u8BF4\u660E\u4E66\u300B</a></font>\r\n
+        \                               </div>\r\n                            </div>\r\n
+        \                           \r\n\r\n                            <div class=\"box\">\r\n
+        \                               <div class=\"boxitem w790\">\r\n                                    <h4
+        class=\"t\">\r\n                                        <label class=\"left\">\u6295\u8D44\u76EE\u6807</label><label
+        class=\"right\"></label></h4>\r\n                                    <div
+        class=\"space0\"></div>\r\n                                    <p>\r\n                                        \u672C\u57FA\u91D1\u4E3B\u8981\u901A\u8FC7\u7CBE\u9009\u4F18\u8D28\u4F01\u4E1A,\u529B\u6C42\u5728\u6709\u6548\u63A7\u5236\u98CE\u9669\u7684\u524D\u63D0\u4E0B,\u5B9E\u73B0\u57FA\u91D1\u8D44\u4EA7\u7684\u957F\u671F\u589E\u503C\u3002\r\n
+        \                                   </p>\r\n                                </div>\r\n
+        \                           </div>\r\n                            <div class=\"box\">\r\n
+        \                               <div class=\"boxitem w790\">\r\n                                    <h4
+        class=\"t\">\r\n                                        <label class=\"left\">\u6295\u8D44\u7406\u5FF5</label><label
+        class=\"right\"></label></h4>\r\n                                    <div
+        class=\"space0\"></div>\r\n                                    <p>\r\n                                        \u7CBE\u9009\u4F18\u8D28\u4F01\u4E1A,\u8FFD\u6C42\u8D44\u672C\u957F\u671F\u589E\u503C\u3002\r\n
+        \                                   </p>\r\n                                </div>\r\n
+        \                           </div>\r\n                            <div class=\"box\">\r\n
+        \                               <div class=\"boxitem w790\">\r\n                                    <h4
+        class=\"t\">\r\n                                        <label class=\"left\">\u6295\u8D44\u8303\u56F4</label><label
+        class=\"right\"></label></h4>\r\n                                    <div
+        class=\"space0\"></div>\r\n                                    \r\n                                    <p>\r\n
+        \                                       1\u3001\u5185\u5730\u5E02\u573A\u6295\u8D44\u5DE5\u5177,\u5305\u62EC\u4F9D\u6CD5\u53D1\u884C\u4E0A\u5E02\u7684\u80A1\u7968(\u5305\u62EC\u521B\u4E1A\u677F\u3001\u79D1\u521B\u677F\u4EE5\u53CA\u5176\u4ED6\u4F9D\u6CD5\u53D1\u884C\u4E0A\u5E02\u7684\u80A1\u7968\u3001\u5B58\u6258\u51ED\u8BC1)\u3001\u503A\u5238(\u5305\u62EC\u56FD\u503A\u3001\u592E\u884C\u7968\u636E\u3001\u5730\u65B9\u653F\u5E9C\u503A\u3001\u91D1\u878D\u503A\u3001\u4F01\u4E1A\u503A\u3001\u516C\u53F8\u503A\u3001\u6B21\u7EA7\u503A\u3001\u4E2D\u671F\u7968\u636E\u3001\u77ED\u671F\u878D\u8D44\u5238\u3001\u53EF\u8F6C\u6362\u503A\u5238\u3001\u53EF\u4EA4\u6362\u503A\u5238\u7B49),\u8D44\u4EA7\u652F\u6301\u8BC1\u5238\u3001\u503A\u5238\u56DE\u8D2D\u3001\u94F6\u884C\u5B58\u6B3E\u3001\u540C\u4E1A\u5B58\u5355\u3001\u8D27\u5E01\u5E02\u573A\u5DE5\u5177\u3001\u884D\u751F\u5DE5\u5177(\u5305\u62EC\u80A1\u6307\u671F\u8D27\u3001\u56FD\u503A\u671F\u8D27\u3001\u80A1\u7968\u671F\u6743\u7B49),\u4EE5\u53CA\u6CD5\u5F8B\u6CD5\u89C4\u6216\u4E2D\u56FD\u8BC1\u76D1\u4F1A\u5141\u8BB8\u57FA\u91D1\u6295\u8D44\u7684\u5176\u4ED6\u91D1\u878D\u5DE5\u5177;\r\n2\u3001\u9999\u6E2F\u5E02\u573A\u6295\u8D44\u5DE5\u5177,\u5305\u62EC\u5185\u5730\u4E0E\u9999\u6E2F\u80A1\u7968\u5E02\u573A\u4EA4\u6613\u4E92\u8054\u4E92\u901A\u673A\u5236\u5141\u8BB8\u4E70\u5356\u7684\u9999\u6E2F\u8BC1\u5238\u5E02\u573A\u80A1\u7968(\u4EE5\u4E0B\u7B80\u79F0\u201C\u6E2F\u80A1\u901A\u201D\u6216\u201C\u6E2F\u80A1\u901A\u80A1\u7968\u201D),\u6E2F\u80A1\u901A\u4EE5\u5916\u7684\u9999\u6E2F\u8BC1\u5238\u5E02\u573A\u6302\u724C\u4EA4\u6613\u7684\u666E\u901A\u80A1\u3001\u4F18\u5148\u80A1\u3001\u5B58\u6258\u51ED\u8BC1,\u4EE5\u53CA\u6CD5\u5F8B\u6CD5\u89C4\u6216\u4E2D\u56FD\u8BC1\u76D1\u4F1A\u5141\u8BB8\u57FA\u91D1\u6295\u8D44\u7684\u5176\u4ED6\u91D1\u878D\u5DE5\u5177\u3002\r\n\u5982\u6CD5\u5F8B\u6CD5\u89C4\u6216\u76D1\u7BA1\u673A\u6784\u4EE5\u540E\u5141\u8BB8\u57FA\u91D1\u6295\u8D44\u5176\u4ED6\u54C1\u79CD,\u57FA\u91D1\u7BA1\u7406\u4EBA\u5728\u5C65\u884C\u9002\u5F53\u7A0B\u5E8F\u540E,\u53EF\u4EE5\u5C06\u5176\u7EB3\u5165\u6295\u8D44\u8303\u56F4\u3002\r\n
+        \                                   </p>\r\n                                </div>\r\n
+        \                           </div>\r\n                            <div class=\"box\">\r\n
+        \                               <div class=\"boxitem w790\">\r\n                                    <h4
+        class=\"t\">\r\n                                        <label class=\"left\">\u6295\u8D44\u7B56\u7565</label><label
+        class=\"right\"></label></h4>\r\n                                    <div
+        class=\"space0\"></div>\r\n                                    \r\n                                    <p>\r\n
+        \                                       \u8D44\u4EA7\u914D\u7F6E\u7B56\u7565\r\n\u672C\u57FA\u91D1\u7ED3\u5408\u5B8F\u89C2\u7ECF\u6D4E\u4E0E\u5E02\u573A\u5206\u6790,\u8BC4\u4F30\u5404\u7C7B\u8D44\u4EA7\u7684\u9884\u671F\u6536\u76CA\u4E0E\u98CE\u9669,\u5728\u57FA\u91D1\u5408\u540C\u7EA6\u5B9A\u7684\u8303\u56F4\u5185,\u786E\u5B9A\u7EC4\u5408\u4E2D\u80A1\u7968\u3001\u503A\u5238\u3001\u8D27\u5E01\u5E02\u573A\u5DE5\u5177\u53CA\u5176\u4ED6\u91D1\u878D\u5DE5\u5177\u7684\u6BD4\u4F8B\u3002\n\u80A1\u7968\u6295\u8D44\u7B56\u7565\r\n(1)\u4F01\u4E1A\u7CBE\u9009\r\n\u672C\u57FA\u91D1\u57FA\u4E8E\u6DF1\u5EA6\u7684\u7814\u7A76\u5206\u6790,\u5728\u5185\u5730\u548C\u9999\u6E2F\u5E02\u573A\u7CBE\u9009\u5177\u6709\u826F\u597D\u6CBB\u7406\u7ED3\u6784\u3001\u5728\u7EC6\u5206\u884C\u4E1A\u5177\u6709\u7ADE\u4E89\u4F18\u52BF\u4EE5\u53CA\u6709\u8F83\u9AD8\u6210\u957F\u6027\u7684\u4F18\u8D28\u4F01\u4E1A\u3002\r\n\u672C\u57FA\u91D1\u7BA1\u7406\u4EBA\u5BF9\u62DF\u6295\u8D44\u7684\u4E0A\u5E02\u4F01\u4E1A\u8FDB\u884C\u900F\u5F7B\u7684\u5206\u6790,\u6309\u4EE5\u4E0B\u5206\u6790\u6807\u51C6\u7CBE\u9009\u6295\u8D44\u6807\u7684:\r\n1)\u5177\u6709\u8F83\u9AD8\u6210\u957F\u6027\r\n\u672C\u57FA\u91D1\u5C06\u91CD\u70B9\u6295\u8D44\u9884\u671F\u672A\u6765\u4E1A\u7EE9\u53EF\u6301\u7EED\u589E\u957F\u7684\u4F01\u4E1A\u3002\r\n\u4F01\u4E1A\u4E1A\u7EE9\u7684\u53EF\u6301\u7EED\u589E\u957F\u6307\u7684\u662F\u4F01\u4E1A\u51C0\u5229\u6DA6\u7684\u589E\u957F\u5177\u6709\u53EF\u6301\u7EED\u6027,\u5176\u52A8\u529B\u4E3B\u8981\u6765\u81EA:\u884C\u4E1A\u5904\u4E8E\u6210\u957F\u5468\u671F\u6216\u8005\u51FA\u73B0\u884C\u4E1A\u666F\u6C14;\u4F01\u4E1A\u901A\u8FC7\u6539\u8FDB\u7BA1\u7406\u6765\u964D\u4F4E\u80FD\u8017\u548C\u751F\u4EA7\u6210\u672C,\u63D0\u9AD8\u4EA7\u80FD\u5229\u7528\u7387;\u4F01\u4E1A\u52A0\u5927\u8425\u9500\u529B\u5EA6,\u5F00\u62D3\u65B0\u5E02\u573A;\u5F00\u53D1\u4E0E\u5F15\u8FDB\u65B0\u6280\u672F;\u65B0\u5EFA\u4EA7\u80FD\u4EE5\u53CA\u6536\u8D2D\u5916\u90E8\u751F\u4EA7\u80FD\u529B\u7B49\u3002\r\n2)\u5728\u7EC6\u5206\u884C\u4E1A\u5177\u6709\u8F83\u5F3A\u7684\u7ADE\u4E89\u4F18\u52BF\r\n\u672C\u57FA\u91D1\u4F18\u5148\u6295\u8D44\u7EC6\u5206\u884C\u4E1A\u7684\u9F99\u5934\u4F01\u4E1A,\u5373\u5728\u7EC6\u5206\u884C\u4E1A\u4E2D\u5E02\u573A\u5360\u6709\u7387\u53CA\u76C8\u5229\u80FD\u529B\u7EFC\u5408\u6307\u6807\u4F4D\u5C45\u524D\u5217\u7684\u4F01\u4E1A,\u4E5F\u5305\u62EC\u7ECF\u8FC7\u5FEB\u901F\u6210\u957F\u5373\u5C06\u6210\u4E3A\u7EC6\u5206\u884C\u4E1A\u9F99\u5934\u7684\u4F01\u4E1A,\u800C\u4E14\u8BE5\u884C\u4E1A\u5177\u6709\u8F83\u5927\u7684\u53D1\u5C55\u7A7A\u95F4,\u884C\u4E1A\u666F\u6C14\u5EA6\u8F83\u9AD8;\r\n\u4F01\u4E1A\u76C8\u5229\u80FD\u529B\u8F83\u5F3A,\u9500\u552E\u6BDB\u5229\u7387\u6216\u51C0\u8D44\u4EA7\u6536\u76CA\u7387\u4F4D\u5C45\u884C\u4E1A\u524D\u5217,\u4E14\u56E0\u4F01\u4E1A\u72EC\u7279\u7684\u7ADE\u4E89\u4F18\u52BF,\u4F01\u4E1A\u7684\u9AD8\u76C8\u5229\u6C34\u5E73\u6709\u671B\u957F\u671F\u4FDD\u6301;\r\n\u4F01\u4E1A\u62E5\u6709\u7BA1\u7406\u80FD\u529B\u8F83\u5F3A\u7684\u7ECF\u8425\u56E2\u961F,\u7BA1\u7406\u5C42\u7A33\u5B9A\u3001\u56E2\u7ED3\u3001\u656C\u4E1A\u3001\u4E13\u4E1A\u3001\u8BDA\u4FE1,\u80FD\u5E26\u9886\u4F01\u4E1A\u4E0D\u65AD\u6210\u957F,\u800C\u4E14\u4F01\u4E1A\u5EFA\u7ACB\u4E86\u5BF9\u7BA1\u7406\u5C42\u6709\u6548\u6FC0\u52B1\u7EA6\u675F\u7684\u673A\u5236\u4F53\u7CFB;\r\n\u7ECF\u8425\u7BA1\u7406\u673A\u5236\u5065\u5168\u6709\u6548,\u80FD\u6839\u636E\u5E02\u573A\u53D8\u5316\u53CA\u65F6\u8C03\u6574\u7ECF\u8425\u6218\u7565,\u5DF2\u5F62\u6210\u6216\u521D\u6B65\u5F62\u6210\u8F83\u5B8C\u5907\u7684\u751F\u4EA7\u7BA1\u7406\u3001\u6210\u672C\u7BA1\u7406\u3001\u85AA\u916C\u7BA1\u7406\u3001\u6280\u672F\u5F00\u53D1\u7BA1\u7406\u3001\u8425\u9500\u7BA1\u7406\u7B49\u7BA1\u7406\u4F53\u7CFB;\r\n\u8425\u9500\u673A\u5236\u7075\u6D3B,\u5177\u6709\u8F83\u5F3A\u7684\u5E02\u573A\u5F00\u62D3\u80FD\u529B;\r\n\u901A\u8FC7\u81EA\u4E3B\u5F00\u53D1\u6216\u5F15\u8FDB\u5148\u8FDB\u6280\u672F,\u5728\u67D0\u4E00\u9886\u57DF\u5F62\u6210\u6280\u672F\u9886\u5148\u4F18\u52BF;\r\n\u8D22\u52A1\u7A33\u5065,\u76F8\u5BF9\u540C\u884C\u4E1A\u5176\u4ED6\u4F01\u4E1A,\u8D44\u4EA7\u8D1F\u503A\u7387\u3001\u77ED\u671F\u507F\u503A\u80FD\u529B\u90FD\u5904\u4E8E\u5408\u7406\u6C34\u5E73,\u5E94\u6536\u8D26\u6B3E\u5468\u8F6C\u7387\u8F83\u9AD8\u3001\u574F\u8D26\u7387\u8F83\u4F4E\u3002\r\n3)\u5177\u6709\u8F83\u597D\u7684\u4F01\u4E1A\u6CBB\u7406\u673A\u5236,\u5173\u5FC3\u793E\u4F1A\u80A1\u4E1C\u5229\u76CA\r\n\u4F01\u4E1A\u5177\u6709\u8F83\u597D\u7684\u6CBB\u7406\u7ED3\u6784,\u7BA1\u7406\u5C42\u5173\u5FC3\u793E\u4F1A\u80A1\u4E1C\u5229\u76CA,\u5728\u80A1\u606F\u5206\u6D3E\u3001\u878D\u8D44\u3001\u6536\u8D2D\u517C\u5E76\u3001\u5173\u8054\u4EA4\u6613\u3001\u9AD8\u7BA1\u53CA\u5458\u5DE5\u7684\u80A1\u6743\u6FC0\u52B1\u7B49\u653F\u7B56\u5236\u5B9A\u4E2D\u90FD\u5145\u5206\u8003\u8651\u5230\u793E\u4F1A\u80A1\u4E1C\u7684\u5229\u76CA\u3002\r\n(2)\u8BC4\u4F30\u4F01\u4E1A\u7684\u4F30\u503C\u6C34\u5E73\r\n\u672C\u57FA\u91D1\u7BA1\u7406\u4EBA\u5C06\u6839\u636E\u4F01\u4E1A\u6240\u5904\u7684\u884C\u4E1A,\u9009\u62E9\u9002\u5F53\u7684\u4F30\u503C\u65B9\u6CD5,\u5BF9\u4F01\u4E1A\u4EF7\u503C\u8FDB\u884C\u52A8\u6001\u8BC4\u4F30\u3002\u672C\u57FA\u91D1\u5C06\u5173\u6CE8\u540C\u7C7B\u4F01\u4E1A\u5728\u7C7B\u4F3C\u53D1\u5C55\u9636\u6BB5\u7684\u4F30\u503C\u6C34\u5E73,\u4EE5\u5224\u65AD\u8BE5\u4F01\u4E1A\u7684\u4F30\u503C\u662F\u5426\u5904\u4E8E\u5408\u7406\u533A\u95F4\u3002\r\n(3)\u80A1\u7968\u7EC4\u5408\u7684\u6784\u9020\r\n\u672C\u57FA\u91D1\u7BA1\u7406\u4EBA\u6839\u636E\u5BF9\u4F01\u4E1A\u7684\u6210\u957F\u6027\u3001\u7ADE\u4E89\u4F18\u52BF\u3001\u4F30\u503C\u6C34\u5E73\u548C\u884C\u4E1A\u524D\u666F\u7684\u7EFC\u5408\u5224\u65AD,\u8FDB\u884C\u80A1\u7968\u7EC4\u5408\u7684\u6784\u9020,\u5E76\u5145\u5206\u8003\u8651\u7EC4\u5408\u7684\u6D41\u52A8\u6027\u4EE5\u53CA\u6CE2\u52A8\u6027\u3002\r\n\u672C\u57FA\u91D1\u53EF\u6839\u636E\u6295\u8D44\u7B56\u7565\u9700\u8981\u6216\u4E0D\u540C\u5E02\u573A\u73AF\u5883\u7684\u53D8\u5316,\u9009\u62E9\u5C06\u90E8\u5206\u57FA\u91D1\u8D44\u4EA7\u6295\u8D44\u4E8E\u6E2F\u80A1,\u6216\u9009\u62E9\u4E0D\u5C06\u57FA\u91D1\u8D44\u4EA7\u6295\u8D44\u4E8E\u6E2F\u80A1,\u57FA\u91D1\u8D44\u4EA7\u5E76\u975E\u5FC5\u7136\u6295\u8D44\u6E2F\u80A1\u3002\n\u5B58\u6258\u51ED\u8BC1\u6295\u8D44\u7B56\u7565\r\n\u672C\u57FA\u91D1\u6295\u8D44\u5B58\u6258\u51ED\u8BC1\u7684\u7B56\u7565\u4F9D\u7167\u4E0A\u8FF0\u80A1\u7968\u6295\u8D44\u7B56\u7565\u6267\u884C\u3002\r\n\u672C\u57FA\u91D1\u8FD8\u53EF\u5728\u7B26\u5408\u6709\u5173\u6CD5\u5F8B\u6CD5\u89C4\u3001\u4E25\u683C\u63A7\u5236\u98CE\u9669\u7684\u524D\u63D0\u4E0B,\u8FDB\u884C\u8BC1\u5238\u501F\u8D37\u4EA4\u6613\u3001\u56DE\u8D2D\u4EA4\u6613\u3001\u878D\u8D44\u4EA4\u6613\u7B49\u3002\n\u8D44\u4EA7\u652F\u6301\u8BC1\u5238\u6295\u8D44\u7B56\u7565\r\n\u672C\u57FA\u91D1\u53EF\u5728\u7EFC\u5408\u8003\u8651\u9884\u671F\u6536\u76CA\u7387\u3001\u4FE1\u7528\u98CE\u9669\u3001\u6D41\u52A8\u6027\u7B49\u56E0\u7D20\u7684\u57FA\u7840\u4E0A,\u9009\u62E9\u6295\u8D44\u4EF7\u503C\u8F83\u9AD8\u7684\u8D44\u4EA7\u652F\u6301\u8BC1\u5238\u8FDB\u884C\u6295\u8D44\u3002\n\u56FD\u503A\u671F\u8D27\u6295\u8D44\u7B56\u7565\r\n\u672C\u57FA\u91D1\u53EF\u6295\u8D44\u56FD\u503A\u671F\u8D27\u3002\u82E5\u672C\u57FA\u91D1\u6295\u8D44\u56FD\u503A\u671F\u8D27,\u5C06\u6839\u636E\u98CE\u9669\u7BA1\u7406\u7684\u539F\u5219,\u7EFC\u5408\u8003\u8651\u6D41\u52A8\u6027\u3001\u57FA\u5DEE\u6C34\u5E73\u3001\u4E0E\u503A\u5238\u7EC4\u5408\u76F8\u5173\u5EA6\u7B49\u56E0\u7D20\u8FDB\u884C\u6295\u8D44\u3002\n\u80A1\u6307\u671F\u8D27\u6295\u8D44\u7B56\u7565\r\n\u672C\u57FA\u91D1\u53EF\u6295\u8D44\u80A1\u6307\u671F\u8D27\u3002\u82E5\u672C\u57FA\u91D1\u6295\u8D44\u80A1\u6307\u671F\u8D27,\u5C06\u6839\u636E\u98CE\u9669\u7BA1\u7406\u7684\u539F\u5219,\u7EFC\u5408\u8003\u8651\u6D41\u52A8\u6027\u3001\u57FA\u5DEE\u6C34\u5E73\u3001\u4E0E\u80A1\u7968\u7EC4\u5408\u76F8\u5173\u5EA6\u7B49\u56E0\u7D20\u8FDB\u884C\u6295\u8D44\u3002\n\u80A1\u7968\u671F\u6743\u6295\u8D44\u7B56\u7565\r\n\u672C\u57FA\u91D1\u53EF\u6295\u8D44\u80A1\u7968\u671F\u6743\u3002\u82E5\u672C\u57FA\u91D1\u6295\u8D44\u80A1\u7968\u671F\u6743,\u5C06\u6839\u636E\u98CE\u9669\u7BA1\u7406\u7684\u539F\u5219,\u7EFC\u5408\u8003\u8651\u6D41\u52A8\u6027\u3001\u4EF7\u683C\u7B49\u56E0\u7D20\u8FDB\u884C\u6295\u8D44\u3002\n\u503A\u5238\u6295\u8D44\u7B56\u7565\r\n\u5728\u503A\u5238\u6295\u8D44\u65B9\u9762,\u672C\u57FA\u91D1\u5C06\u4E3B\u8981\u901A\u8FC7\u7C7B\u5C5E\u914D\u7F6E\u4E0E\u5238\u79CD\u9009\u62E9\u4E24\u4E2A\u5C42\u6B21\u8FDB\u884C\u6295\u8D44\u7BA1\u7406\u3002\r\n\u5728\u7C7B\u5C5E\u914D\u7F6E\u5C42\u6B21,\u672C\u57FA\u91D1\u7ED3\u5408\u5BF9\u5B8F\u89C2\u7ECF\u6D4E\u3001\u5E02\u573A\u5229\u7387\u3001\u4F9B\u6C42\u53D8\u5316\u7B49\u56E0\u7D20\u7684\u7EFC\u5408\u5206\u6790,\u5BF9\u6295\u8D44\u7EC4\u5408\u7C7B\u5C5E\u8D44\u4EA7\u8FDB\u884C\u4F18\u5316\u914D\u7F6E\u548C\u8C03\u6574,\u786E\u5B9A\u7C7B\u5C5E\u8D44\u4EA7\u7684\u6743\u91CD\u3002\r\n\u5728\u5238\u79CD\u9009\u62E9\u4E0A,\u672C\u57FA\u91D1\u4EE5\u957F\u671F\u5229\u7387\u8D8B\u52BF\u5206\u6790\u4E3A\u57FA\u7840,\u7ED3\u5408\u7ECF\u6D4E\u53D8\u5316\u8D8B\u52BF\u3001\u8D27\u5E01\u653F\u7B56\u53CA\u4E0D\u540C\u503A\u5238\u54C1\u79CD\u7684\u6536\u76CA\u7387\u6C34\u5E73\u3001\u6D41\u52A8\u6027\u548C\u4FE1\u7528\u98CE\u9669\u7B49\u56E0\u7D20,\u5B9E\u65BD\u6295\u8D44\u7BA1\u7406\u3002\r\n
+        \                                   </p>\r\n                                </div>\r\n
+        \                           </div>\r\n                            <div class=\"box\">\r\n
+        \                               <div class=\"boxitem w790\">\r\n                                    <h4
+        class=\"t\">\r\n                                        <label class=\"left\">\u5206\u7EA2\u653F\u7B56</label><label
+        class=\"right\"></label></h4>\r\n                                    <div
+        class=\"space0\"></div>\r\n                                    <p>\r\n                                        1\u3001\u5728\u7B26\u5408\u6709\u5173\u57FA\u91D1\u5206\u7EA2\u6761\u4EF6\u7684\u524D\u63D0\u4E0B,\u57FA\u91D1\u7BA1\u7406\u4EBA\u53EF\u4EE5\u6839\u636E\u5B9E\u9645\u60C5\u51B5\u8FDB\u884C\u6536\u76CA\u5206\u914D,\u5177\u4F53\u5206\u914D\u65B9\u6848\u4EE5\u516C\u544A\u4E3A\u51C6,\u82E5\u300A\u57FA\u91D1\u5408\u540C\u300B\u751F\u6548\u4E0D\u6EE13\u4E2A\u6708\u53EF\u4E0D\u8FDB\u884C\u6536\u76CA\u5206\u914D;\r\n2\u3001\u672C\u57FA\u91D1\u6536\u76CA\u5206\u914D\u65B9\u5F0F\u5206\u4E24\u79CD:\u73B0\u91D1\u5206\u7EA2\u4E0E\u7EA2\u5229\u518D\u6295\u8D44,\u6295\u8D44\u8005\u53EF\u9009\u62E9\u73B0\u91D1\u7EA2\u5229\u6216\u5C06\u73B0\u91D1\u7EA2\u5229\u81EA\u52A8\u8F6C\u4E3A\u57FA\u91D1\u4EFD\u989D\u8FDB\u884C\u518D\u6295\u8D44;\u82E5\u6295\u8D44\u8005\u4E0D\u9009\u62E9,\u672C\u57FA\u91D1\u9ED8\u8BA4\u7684\u6536\u76CA\u5206\u914D\u65B9\u5F0F\u662F\u73B0\u91D1\u5206\u7EA2;\r\n3\u3001\u57FA\u91D1\u6536\u76CA\u5206\u914D\u540E\u57FA\u91D1\u4EFD\u989D\u51C0\u503C\u4E0D\u80FD\u4F4E\u4E8E\u9762\u503C;\u5373\u57FA\u91D1\u6536\u76CA\u5206\u914D\u57FA\u51C6\u65E5\u7684\u57FA\u91D1\u4EFD\u989D\u51C0\u503C\u51CF\u53BB\u6BCF\u5355\u4F4D\u57FA\u91D1\u4EFD\u989D\u6536\u76CA\u5206\u914D\u91D1\u989D\u540E\u4E0D\u80FD\u4F4E\u4E8E\u9762\u503C;\r\n4\u3001\u6BCF\u4E00\u57FA\u91D1\u4EFD\u989D\u4EAB\u6709\u540C\u7B49\u5206\u914D\u6743;\r\n5\u3001\u5728\u5BF9\u57FA\u91D1\u4EFD\u989D\u6301\u6709\u4EBA\u5229\u76CA\u65E0\u5B9E\u8D28\u4E0D\u5229\u5F71\u54CD\u7684\u524D\u63D0\u4E0B,\u57FA\u91D1\u7BA1\u7406\u4EBA\u53EF\u8C03\u6574\u57FA\u91D1\u6536\u76CA\u7684\u5206\u914D\u539F\u5219\u548C\u652F\u4ED8\u65B9\u5F0F,\u4E0D\u9700\u53EC\u5F00\u57FA\u91D1\u4EFD\u989D\u6301\u6709\u4EBA\u5927\u4F1A\u5BA1\u8BAE;\r\n6\u3001\u6CD5\u5F8B\u6CD5\u89C4\u6216\u76D1\u7BA1\u673A\u5173\u53E6\u6709\u89C4\u5B9A\u7684,\u4ECE\u5176\u89C4\u5B9A\u3002\r\n
+        \                                   </p>\r\n                                </div>\r\n
+        \                           </div>\r\n                            \r\n                            <div
+        class=\"box nb\">\r\n                                <div class=\"boxitem
+        w790\">\r\n                                    <h4 class=\"t\">\r\n                                        <label
+        class=\"left\">\u98CE\u9669\u6536\u76CA\u7279\u5F81</label><label class=\"right\"></label></h4>\r\n
+        \                                   <div class=\"space0\"></div>\r\n                                    <p>\r\n
+        \                                       \u672C\u57FA\u91D1\u4E3A\u6DF7\u5408\u578B\u57FA\u91D1,\u7406\u8BBA\u4E0A\u5176\u9884\u671F\u98CE\u9669\u4E0E\u9884\u671F\u6536\u76CA\u6C34\u5E73\u4F4E\u4E8E\u80A1\u7968\u578B\u57FA\u91D1,\u9AD8\u4E8E\u503A\u5238\u578B\u57FA\u91D1\u548C\u8D27\u5E01\u5E02\u573A\u57FA\u91D1\u3002\r\n\u672C\u57FA\u91D1\u53EF\u6295\u8D44\u6E2F\u80A1\u901A\u80A1\u7968\u4EE5\u53CA\u6E2F\u80A1\u901A\u4EE5\u5916\u7684\u9999\u6E2F\u5E02\u573A\u6302\u724C\u4EA4\u6613\u7684\u80A1\u7968,\u9664\u4E86\u9700\u8981\u627F\u62C5\u5E02\u573A\u6CE2\u52A8\u98CE\u9669\u7B49\u4E00\u822C\u6295\u8D44\u98CE\u9669\u4E4B\u5916,\u672C\u57FA\u91D1\u8FD8\u9762\u4E34\u6C47\u7387\u98CE\u9669\u3001\u80A1\u4EF7\u6CE2\u52A8\u8F83\u5927\u7684\u98CE\u9669\u7B49\u6295\u8D44\u4E8E\u9999\u6E2F\u5E02\u573A\u7684\u7279\u6709\u98CE\u9669\u4EE5\u53CA\u6E2F\u80A1\u901A\u673A\u5236\u76F8\u5173\u7684\u7279\u6709\u98CE\u9669\u3002\u672C\u57FA\u91D1\u6295\u8D44\u9999\u6E2F\u5E02\u573A\u7684\u7279\u6709\u98CE\u9669\u4EE5\u53CA\u6E2F\u80A1\u901A\u673A\u5236\u76F8\u5173\u7684\u7279\u6709\u98CE\u9669\u8BE6\u89C1\u672C\u62DB\u52DF\u8BF4\u660E\u4E66\u3002\r\n
+        \                                   </p>\r\n                                </div>\r\n
+        \                           </div>\r\n                        </div>\r\n                    </div>\r\n
+        \               </div>\r\n\r\n\r\n                <!-- \u6B63\u6587\u90E8\u4EFD\u7ED3\u675F
+        -->\r\n            </div>\r\n        </div>\r\n\r\n    </div>\r\n    \r\n\r\n<div
+        class=\"mainFrame\">\r\n    <div class=\"space6\"></div>\r\n    <div style=\"border:1px
+        solid #CAC9C7;background: none no-repeat scroll 0px 0px #FFFAE0;margin:10px
+        0px 0px;padding: 5px;line-height: 2.0;text-align: left;color: #333333; font-size:12px;\">\r\n\u90D1\u91CD\u58F0\u660E\uFF1A\u5929\u5929\u57FA\u91D1\u7F51\u53D1\u5E03\u6B64\u4FE1\u606F\u76EE\u7684\u5728\u4E8E\u4F20\u64AD\u66F4\u591A\u4FE1\u606F\uFF0C\u4E0E\u672C\u7F51\u7AD9\u7ACB\u573A\u65E0\u5173\u3002\u5929\u5929\u57FA\u91D1\u7F51\u4E0D\u4FDD\u8BC1\u8BE5\u4FE1\u606F\uFF08\u5305\u62EC\u4F46\u4E0D\u9650\u4E8E\u6587\u5B57\u3001\u6570\u636E\u53CA\u56FE\u8868\uFF09\u5168\u90E8\u6216\u8005\u90E8\u5206\u5185\u5BB9\u7684\u51C6\u786E\u6027\u3001\u771F\u5B9E\u6027\u3001\u5B8C\u6574\u6027\u3001\u6709\u6548\u6027\u3001\u53CA\u65F6\u6027\u3001\u539F\u521B\u6027\u7B49\u3002\u76F8\u5173\u4FE1\u606F\u5E76\u672A\u7ECF\u8FC7\u672C\u7F51\u7AD9\u8BC1\u5B9E\uFF0C\u4E0D\u5BF9\u60A8\u6784\u6210\u4EFB\u4F55\u6295\u8D44\u51B3\u7B56\u5EFA\u8BAE\uFF0C\u636E\u6B64\u64CD\u4F5C\uFF0C\u98CE\u9669\u81EA\u62C5\u3002\u6570\u636E\u6765\u6E90\uFF1A\u4E1C\u65B9\u8D22\u5BCCChoice\u6570\u636E\u3002\r\n</div>\r\n</div>\r\n<div
+        class=\"mainFrame\">\r\n    <div class=\"space6\"></div>\r\n    <style>\r\n
+        \  .cpright{font-family:arial,SimSun,'\u5B8B\u4F53';text-align:center;line-height:24px;margin:5px
+        0 0 0;padding:0 0 30px 0}.cpright p{line-height:24px;padding:0;margin:0}.cpright
+        a{color:#5d5d5d;text-decoration:underline}.cpright a:hover,.cpright p.cp a:hover{color:#e30000;text-decoration:underline}.cpright
+        span{color:#5d5d5d;margin:0 10px}.cpright p.cp,.cpright p.cp a{color:#808080;text-decoration:none}.footera{background:url(\"//j5.dfcfw.com/image/201508/20150812175642.png\")
+        no-repeat}.footer-police,.footer-zx110,.footer-shjubao,.footer-cxzx,.footer-shgs,.footer-hgwb{height:40px;margin:0
+        4px;width:110px}.footer-police,.footer-zx110,.footer-shjubao,.footer-cxzx,.footer-shgs,.footer-hgwb{display:inline-block;overflow:hidden}.footer-police{background-position:0
+        -512px}.footer-zx110{background-position:-112px -512px}.footer-shjubao{background-position:0
+        -560px}.footer-cxzx{background-position:-112px -560px;width:40px}.footer-shgs{background-position:0
+        -608px;width:47px}.footer-hgwb{background-position:-52px -608px;width:116px}\r\n</style>\r\n<div
+        class=\"cpright\">\r\n    <p style=\"margin:10px 0 0; padding:0px;\"><a style=\"cursor:pointer;\"
+        onclick=\"SetHome2(this,'http://fund.eastmoney.com/')\" target=\"_self\">\u5C06\u5929\u5929\u57FA\u91D1\u7F51\u8BBE\u4E3A\u4E0A\u7F51\u9996\u9875\u5417\uFF1F</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+        onclick=\"addBook('http://fund.eastmoney.com/','\u5929\u5929\u57FA\u91D1\u7F51--\u4E1C\u65B9\u8D22\u5BCC\u7F51\u65D7\u4E0B\u57FA\u91D1\u5E73\u53F0')\"
+        style=\"cursor:pointer;\" target=\"_self\">\u5C06\u5929\u5929\u57FA\u91D1\u7F51\u6DFB\u52A0\u5230\u6536\u85CF\u5939\u5417\uFF1F</a></p>\r\n
+        \   <p><a target=\"_blank\" href=\"http://help.1234567.com.cn/aboutus/about.html\">\u5173\u4E8E\u6211\u4EEC</a><span>|</span><a
+        target=\"_blank\" href=\"http://help.1234567.com.cn/aboutus/licenses.html\">\u8D44\u8D28\u8BC1\u660E</a><span>|</span><a
+        target=\"_blank\" href=\"http://fundact.eastmoney.com/ttjjyjzx/\">\u7814\u7A76\u4E2D\u5FC3</a><span>|</span><a
+        target=\"_blank\" href=\"http://help.1234567.com.cn/aboutus/connect.html\">\u8054\u7CFB\u6211\u4EEC</a><span>|</span><a
+        target=\"_blank\" href=\"http://help.1234567.com.cn/aboutus/security_guid.html\">\u5B89\u5168\u6307\u5F15</a><span>|</span><a
+        target=\"_blank\" href=\"http://help.1234567.com.cn/aboutus/relief.html\">\u514D\u8D23\u6761\u6B3E</a><span>|</span><a
+        target=\"_blank\" href=\"http://help.1234567.com.cn/aboutus/secret.html\">\u9690\u79C1\u6761\u6B3E</a><span>|</span><a
+        target=\"_blank\" href=\"http://help.1234567.com.cn/aboutus/risktips.html\">\u98CE\u9669\u63D0\u793A\u51FD</a><span>|</span><a
+        target=\"_blank\" href=\"http://feedback.1234567.com.cn/\">\u610F\u89C1\u5EFA\u8BAE</a><span>|</span><a
+        id=\"ttfund_online\" target=\"_self\" href=\"javascript:;\">\u5728\u7EBF\u5BA2\u670D</a><span>|</span><a
+        target=\"_blank\" href=\"https://app.mokahr.com/social-recruitment/eastmoney/57970#/\">\u8BDA\u8058\u82F1\u624D</a></p>\r\n
+        \   <p class=\"cp\">\u5929\u5929\u57FA\u91D1\u5BA2\u670D\u70ED\u7EBF\uFF1A95021&nbsp;<span>|</span>\u5BA2\u670D\u90AE\u7BB1\uFF1A<a
+        target=\"_blank\" href=\"mailto:vip@1234567.com.cn\">vip@1234567.com.cn</a><span>|</span>\u4EBA\u5DE5\u670D\u52A1\u65F6\u95F4\uFF1A\u5DE5\u4F5C\u65E5
+        7:30-21:30 \u53CC\u4F11\u65E5 9:00-21:30<br>\u90D1\u91CD\u58F0\u660E\uFF1A<a
+        target=\"_blank\" href=\"http://help.1234567.com.cn/aboutus/licenses.html\"
+        class=\"footFundCertLink\">\u5929\u5929\u57FA\u91D1\u7CFB\u8BC1\u76D1\u4F1A\u6279\u51C6\u7684\u57FA\u91D1\u9500\u552E\u673A\u6784[000000303]</a>\u3002\u5929\u5929\u57FA\u91D1\u7F51\u6240\u8F7D\u6587\u7AE0\u3001\u6570\u636E\u4EC5\u4F9B\u53C2\u8003\uFF0C\u4F7F\u7528\u524D\u8BF7\u6838\u5B9E\uFF0C\u98CE\u9669\u81EA\u8D1F\u3002<br>\u4E2D\u56FD\u8BC1\u76D1\u4F1A\u4E0A\u6D77\u76D1\u7BA1\u5C40\u7F51\u5740\uFF1A<a
+        href=\"http://www.csrc.gov.cn/pub/shanghai/\" target=\"_blank\">www.csrc.gov.cn/pub/shanghai</a><br>CopyRight&nbsp;&nbsp;\u4E0A\u6D77\u5929\u5929\u57FA\u91D1\u9500\u552E\u6709\u9650\u516C\u53F8&nbsp;&nbsp;2011-\u73B0\u5728&nbsp;&nbsp;\u6CAAICP\u8BC1\uFF1A\u6CAAB2-20130026&nbsp;&nbsp;<a
+        href=\"https://beian.miit.gov.cn/\" id=\"bei_id\" target=\"_blank\">\u7F51\u7AD9\u5907\u6848\u53F7\uFF1A\u6CAAICP\u590711042629\u53F7-1</a><br><br></p>\r\n
+        \   <p>\r\n        <a class=\"footera footer-police\" title=\"\u4E0A\u6D77\u7F51\u8B66\u7F51\u7EDC110\"
+        target=\"_self\" href=\"javascript:;\"></a>\r\n        <a class=\"footera
+        footer-zx110\" title=\"\u7F51\u7EDC\u793E\u4F1A\u5F81\u4FE1\u7F51\" target=\"_self\"
+        href=\"javascript:;\"></a>\r\n        <a class=\"footera footer-shjubao\"
+        title=\"\u4E0A\u6D77\u8FDD\u6CD5\u548C\u8FDD\u89C4\u4FE1\u606F\u4E3E\u62A5\u4E2D\u5FC3\"
+        target=\"_blank\" href=\"http://www.shjbzx.cn/\"></a>\r\n        <a class=\"footera
+        footer-hgwb\" title=\"\u6CAA\u516C\u7F51\u5907\" target=\"_self\" href=\"javascript:;\"></a>\r\n
+        \   </p>\r\n\r\n    <script type=\"text/javascript\">\r\n        eval(function
+        (p, a, c, k, e, d) { e = function (c) { return (c < a ? \"\" : e(parseInt(c
+        / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36))
+        }; if (!''.replace(/^/, String)) { while (c--) d[e(c)] = k[c] || e(c); k =
+        [function (e) { return d[e] }]; e = function () { return '\\\\w+' }; c = 1;
+        }; while (c--) if (k[c]) p = p.replace(new RegExp('\\\\b' + e(c) + '\\\\b',
+        'g'), k[c]); return p; }('6 c(1,2){8(9.l){8(j){0.7.5(0.h.i,0.9.2)}4{0.7.5(1,2)}}4{k(\"g\uFF0Ca+b\");f
+        d}};6 w(3,1){x{3.u.v=\\'1(#A#B)\\';3.y(1)}z(e){0.p(\"m://n.s.t.q/r.o\")}};',
+        38, 38, 'window|url|title|obj|else|AddFavorite|function|external|if|document|\u8BF7\u4F7F\u7528Ctrl|D\u8FDB\u884C\u6DFB\u52A0|addBook|true||return|\u52A0\u5165\u6536\u85CF\u5931\u8D25|location|href|arguments|alert|all|http|help|html|open|cn|settingshelp|1234567|com|style|behavior|SetHome2|try|setHomePage|catch|default|homepage'.split('|'),
+        0, {}));\r\n    </script>\r\n    <script type=\"text/javascript\" src=\"//j5.dfcfw.com/sc/js/default/jump_tracker_config.min.js\"
+        charset=\"UTF-8\"></script>\r\n    <script type=\"text/javascript\" src=\"https://bdstatics.eastmoney.com/web/prd/jump_tracker.js\"
+        charset=\"UTF-8\"></script>\r\n    <script src=\"//j5.dfcfw.com/sc/js/default/replacegb_min_20200410.js\"></script>\r\n</div>\r\n</div>\r\n\r\n\r\n<script>\r\n
+        \   _cpyno = \"c1\";\r\n    var rightAd_bodywidth = 1000; //\u7F51\u9875\u4E3B\u4F53\u5BBD\u5EA6\r\n
+        \   var rightAd_fixedwidth = 150; //\u6A21\u5757\u5360\u7528\u5BBD\u5EA6,\u4E00\u822C\u4E0D\u53D8\r\n
+        \   var rightAd_width = 135; //\u6A21\u5757iframe\u5B9E\u9645\u5BBD\u5EA6,\u4E00\u822C\u4E0D\u53D8\r\n
+        \   var rightAd_height = 1861; //\u6A21\u5757iframe\u5B9E\u9645\u9AD8\u5EA6,\u4E00\u822C\u4E0D\u53D8\r\n
+        \   var rightAd_top = 50; //\u6A21\u5757\u8DDD\u9876\u90E8top\u503C\r\n    var
+        rightAd_zindex = 0; //\u6A21\u5757z-index\u503C\r\n    var rightAd_url = '//fundact.eastmoney.com/banner/hot_em.html?spm=001001.rw';
+        //\u5185\u5D4Ciframe\u7684url\r\n</script>\r\n\r\n<script src=\"//j5.dfcfw.com/j1/js/embasef10.js?v=20111103.js\"
+        type=\"text/javascript\"></script>\r\n<script src=\"//j5.dfcfw.com/j1/js/hq-fund.js?v=20120615.js\"
+        type=\"text/javascript\"></script>\r\n<script type=\"text/javascript\" src=\"//fund.eastmoney.com/js/rightAd.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"//j5.dfcfw.com/js/data/jquery_183min_20140312171610.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"//fund.eastmoney.com/webcommon/js/FundCommonPage.min.js\"></script>\r\n<script
+        src=\"//j5.dfcfw.com/sc/js/web/f10_min_20250219.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"//j5.dfcfw.com/js/f10/fundminisearchcom_min_20181207111845.js\"></script>\r\n<script
+        src=\"//f1.dfcfw.com/??js/searchbox.js\"></script>\r\n<script type=\"text/javascript\">\r\n\r\n
+        \   jQuery(document).ready(function () {\r\n        dtClickEvent();\r\n        infoTips();\r\n
+        \   });\r\n    /* \u516C\u53F8\u540C\u7CFB\u57FA\u91D1 */\r\n    (function
+        sameCompanyEvent() {\r\n        try {\r\n            var as = $(\"scompany\").getElementsByTagName(\"a\");\r\n
+        \           var _ov = function (e) {\r\n                var eO = $E(e);\r\n
+        \               eO.parentNode.className = \"at\";\r\n            }\r\n            var
+        _ou = function (e) {\r\n                var eO = $E(e);\r\n                eO.parentNode.className
+        = \"\";\r\n            }\r\n            for (var i = 0; i < as.length; i++)
+        {\r\n                $aE(as[i], \"mouseover\", _ov, true);\r\n                $aE(as[i],
+        \"mouseout\", _ou, true);\r\n            }\r\n        } catch (ex) { }\r\n
+        \   })();\r\n\r\n   \r\n</script>\r\n\r\n    \r\n    <script type=\"text/javascript\">\r\n
+        \       //LoadFundSelect(\"jjlist\", \"jbgk\");\r\n        //ChkSelectItem(\"jjlist\",
+        \"110011\");\r\n        (function ($) {\r\n            $(\"#search-input1\").fundsearchbox({\r\n
+        \               cols: [\"_id\", \"NAME\", \"CODE\", \"NAME\"],\r\n                width:
+        \"257px\",\r\n                url: 'https://fundsuggest.eastmoney.com/FundSearch/api/FundSearchAPI.ashx?callback=?&m=10&t=700&IsNeedBaseInfo=0&IsNeedZTInfo=0&key=',\r\n
+        \               onSelectFund: function (e) {\r\n                    console.log(e)\r\n
+        \                   window.open(\"//fundf10.eastmoney.com/jbgk_\" + e.CODE
+        + \".html\");\r\n                }\r\n            })\r\n        })(jQuery);\r\n
+        \       (function ($) {\r\n            $('#js-bbms-q').hover(function () {\r\n
+        \               $('#div-tip').css('top', $(this).position().top - 45).show()\r\n
+        \           })\r\n        }(window.jQuery));\r\n        \r\n       // $('#search-input1').onchange(function
+        () { initSearchBox() });\r\n        \r\n    </script>\r\n    \r\n    \r\n</body>\r\n<!--
+        AdSame ShowCode: \u4E1C\u65B9\u8D22\u5BCC\u7F51 / \u57FA\u91D1\u6863\u6848
+        / \u57FA\u91D1\u6863\u6848\u5168\u5C4F Begin -->\r\n<script language=\"javascript\"
+        type=\"text/javascript\" src=\"//same.eastmoney.com/s?z=eastmoney&c=1127\"></script>\r\n<!--
+        AdSame ShowCode: \u4E1C\u65B9\u8D22\u5BCC\u7F51 / \u57FA\u91D1\u6863\u6848
+        / \u57FA\u91D1\u6863\u6848\u5168\u5C4F End -->\r\n<script type=\"text/javascript\"
+        src=\"//j5.dfcfw.com/js/f10/bd_f10_20140529160202.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"//j5.dfcfw.com/libs/js/counter.js\"></script>\r\n\r\n</html>\r\n"
+    headers:
+      Cache-Control:
+      - private
+      Connection:
+      - close
+      Content-Length:
+      - '53788'
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Wed, 13 May 2026 05:42:04 GMT
+      Server:
+      - Lego Server
+      Set-Cookie:
+      - ASP.NET_SessionId=zvjzejunklthptrp1jalelaj; path=/; HttpOnly; SameSite=Lax
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Cache-Lookup:
+      - Cache Miss
+      - Cache Miss
+      X-Nws-Log-Uuid:
+      - '17944266862792329629'
+      X-Powered-By:
+      - ASP.NET
+    status:
+      code: 200
+      message: OK
+version: 1

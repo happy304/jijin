@@ -1,0 +1,65 @@
+# =====================================================================
+# Alertmanager Configuration — Fund Quant Platform
+#
+# Routes all Prometheus alerts to the platform's webhook endpoint,
+# which in turn dispatches to the configured notification channels
+# (email, WeChat Work, Telegram).
+#
+# Requirements: 8.4, 8.7
+# =====================================================================
+
+global:
+  # Resolve timeout: if an alert is not re-fired within this window,
+  # consider it resolved.
+  resolve_timeout: 5m
+
+# Routing tree — all alerts go to the platform webhook receiver.
+route:
+  # Default receiver for all alerts.
+  receiver: platform-webhook
+
+  # Group alerts by category and alertname to reduce noise.
+  group_by: ["category", "alertname"]
+
+  # Wait 30s to batch alerts of the same group before sending.
+  group_wait: 30s
+
+  # Wait 5m before sending new alerts for an already-notified group.
+  group_interval: 5m
+
+  # Re-send unresolved alerts every 4 hours.
+  repeat_interval: 4h
+
+  # Child routes for severity-based handling.
+  routes:
+    - match:
+        severity: critical
+      receiver: platform-webhook
+      # Critical alerts: shorter group wait, more frequent repeats.
+      group_wait: 10s
+      repeat_interval: 1h
+
+    - match:
+        severity: warning
+      receiver: platform-webhook
+      repeat_interval: 4h
+
+# Receivers — the platform's internal webhook endpoint handles
+# dispatching to email/wecom/telegram based on user configuration.
+receivers:
+  - name: platform-webhook
+    webhook_configs:
+      - url: "http://api:8000/api/v1/alerts/webhook"
+        send_resolved: true
+        http_config:
+          # Alertmanager → API is internal; no TLS needed.
+          follow_redirects: true
+
+# Inhibition rules — suppress lower-severity alerts when a
+# higher-severity alert for the same category is already firing.
+inhibit_rules:
+  - source_match:
+      severity: critical
+    target_match:
+      severity: warning
+    equal: ["category"]

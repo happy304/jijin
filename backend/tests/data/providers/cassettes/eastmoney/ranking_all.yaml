@@ -1,0 +1,49 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - zh-CN,zh;q=0.9,en;q=0.8
+      Connection:
+      - keep-alive
+      Host:
+      - fund.eastmoney.com
+      Referer:
+      - http://fund.eastmoney.com/data/fundranking.html
+    method: GET
+    uri: http://fund.eastmoney.com/data/rankhandler.aspx?op=ph&dt=kf&ft=all&rs=&gs=0&sc=6yzf&st=desc&sd=&ed=&qdii=&tabSubtype=%2C%2C%2C%2C%2C&pi=1&pn=10&dx=1&v=0.123456
+  response:
+    body:
+      string: "var rankData = {datas:[\"004320,\u524D\u6D77\u5F00\u6E90\u6CAA\u6E2F\u6DF1\u4E50\u4EAB\u751F\u6D3B,QHKYHGSLXSH,2026-05-12,6.4281,6.4281,1.26,16.46,37.32,71.22,146.09,363.85,468.41,244.86,88.06,542.81,2017-05-12,1,542.81,1.50%,0.15%,1,0.15%,1,280.72\",\"024459,\u534E\u5546\u81F4\u8FDC\u56DE\u62A5\u6DF7\u5408A,HSZYHBHHA,2026-05-12,3.1434,3.1434,2.36,15.16,26.8,59.77,117.9,,,,87.34,214.34,2025-07-15,1,214.34,1.50%,0.15%,1,0.15%,1,\",\"024460,\u534E\u5546\u81F4\u8FDC\u56DE\u62A5\u6DF7\u5408C,HSZYHBHHC,2026-05-12,3.1286,3.1286,2.36,15.14,26.74,59.56,117.31,,,,86.98,212.86,2025-07-15,1,212.86,,0.00%,,,,\",\"025421,\u6D66\u94F6\u5B89\u76DB\u6570\u5B57\u7ECF\u6D4E\u6DF7\u5408A,PYASSZJJHHA,2026-05-12,2.1813,2.1813,2.29,15.84,20.03,41.66,115.18,,,,81.62,118.13,2025-09-11,1,118.13,1.50%,0.15%,1,0.15%,1,\",\"025422,\u6D66\u94F6\u5B89\u76DB\u6570\u5B57\u7ECF\u6D4E\u6DF7\u5408C,PYASSZJJHHC,2026-05-12,2.1736,2.1736,2.29,15.85,20.02,41.33,114.53,,,,81.15,117.36,2025-09-11,1,117.36,,0.00%,,,,\",\"011369,\u534E\u5546\u5747\u8861\u6210\u957F\u6DF7\u5408A,HSJHCZHHA,2026-05-12,3.6269,3.6269,1.87,13.9,24.94,56.22,114.33,315.45,386.05,286.95,84.17,262.69,2021-04-08,1,262.69,1.50%,0.15%,1,0.15%,1,262.54\",\"011370,\u534E\u5546\u5747\u8861\u6210\u957F\u6DF7\u5408C,HSJHCZHHC,2026-05-12,3.5182,3.5182,1.87,13.88,24.87,56,113.72,313.03,380.3,280.1,83.79,251.82,2021-04-08,1,251.82,,0.00%,,,,251.86\",\"011891,\u6613\u65B9\u8FBE\u5148\u950B\u6210\u957F\u6DF7\u5408A,YFDXFCZHHA,2026-05-12,4.0962,4.0962,2.41,15.84,28.08,56.61,110.48,291.68,342.21,253.09,78.42,309.62,2021-09-23,1,309.62,1.50%,0.15%,1,0.15%,1,\",\"011892,\u6613\u65B9\u8FBE\u5148\u950B\u6210\u957F\u6DF7\u5408C,YFDXFCZHHC,2026-05-12,4.0197,4.0197,2.4,15.82,28.03,56.42,110.03,290.03,338.54,248.78,78.12,301.97,2021-09-23,1,301.97,,0.00%,,,,\",\"010115,\u6613\u65B9\u8FBE\u8FDC\u89C1\u6210\u957F\u6DF7\u5408A,YFDYJCZHHA,2026-05-12,3.7047,3.7047,2.36,15.75,27.88,56.63,109.66,288.05,322.14,240.57,77.92,270.47,2021-03-05,1,270.47,1.50%,0.15%,1,0.15%,1,268.33\"],allRecords:19584,pageIndex:1,pageNum:10,allPages:1959,allNum:19584,zs_count:4279,gp_count:1058,hh_count:8330,zq_count:4740,qdii_count:221,fof_count:956};"
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - close
+      Content-Length:
+      - '1880'
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Wed, 13 May 2026 05:44:34 GMT
+      Expires:
+      - '-1'
+      Pragma:
+      - no-cache
+      Server:
+      - Lego Server
+      Set-Cookie:
+      - ASP.NET_SessionId=to4mq3rj0qtm4omf0fpdv2ly; path=/; HttpOnly; SameSite=Lax
+      X-Cache-Lookup:
+      - Cache Miss
+      - Cache Miss
+      X-Nws-Log-Uuid:
+      - '2100396134554870040'
+    status:
+      code: 200
+      message: OK
+version: 1
